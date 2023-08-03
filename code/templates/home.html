@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+        <input type="file" name="filexml" />
+        <button type="submit" class="btn btn-primary">Traducir</button>
+        <div>
+</form>
+{% endblock %}

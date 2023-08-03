@@ -1,0 +1,30 @@
+Comprobar administrador de paquetes de Python pip
+py -m pip --version
+Actualizar:
+py -m pip install --upgrade pip
+
+instalar el paquete python virtualenv:
+py -m pip install --user virtualenv
+
+
+***Creando Entorno***
+Ir a carpeta de tu proyecto.
+cd C:\Users\zuric\Documents
+
+Crear un entorno virtual
+py -m venv _env
+
+py -m venv DockerSelenium
+
+Activar el entorno virtual desde windows CMD
+.\DockerSelenium\Scripts\activate
+.\DockerSelenium\Scripts\activate
+
+desde git 
+source FirstPythonAppVenv/bin/activate
+
+Guardar las dependencias en un archivo de texto
+pip freeze > requirements.txt
+
+uvicorn main:app
+uvicorn fastapi:ap

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<pre>
+	{{ text1|safe }}
+	</pre>
+<div class="container">
+	<div class="container-fluid align-right mt-5 mb-5">
+		<!--<a class="btn btn-secundary" href="/">Inicio</a>-->
+		<form action="{{ url_for('download', filename= text) }}" method="get">
+			<button type="submit" class="btn btn-primary">Descargar resultado</button>
+		</form>
+	</div>
+</div>
+{% endblock %}

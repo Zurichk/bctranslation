@@ -1,0 +1,1469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="EjProduccion">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 281711813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Method 3152277940 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 %2 because there is at least one %3 associated to this item.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption(), %2 = "No.", %3 = EJ1ItemLedgerEntry.TableCaption()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Method OnDelete - NamedType Text001Err</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Method 3152277940 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 %2 because there is one %3 associated to this item.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption(), %2 = "No.", %3 = EJ1ProductionOrderHeader.TableCaption()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Method OnDelete - NamedType Text002Err</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Method 3152277940 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 %2 because there is one %3 associated to this item.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption(), %2 = "No.", %3 = EJ1ProductionOrderLine.TableCaption()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Method OnDelete - NamedType Text003Err</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 2142278257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Base Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 3737244698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 751227357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Family Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 2598468274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Production Order Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 175818473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamily Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Subfamily Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 3119688693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 281711813 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3190011943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3190011943 - Method 3152277940 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 because there is at least one %2 associated to this family.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = "Code", %2 = EJ1Item.TableCaption()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Family - Method OnDelete - NamedType Text001Err</note>
+        </trans-unit>
+        <trans-unit id="Table 3190011943 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Family - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3190011943 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Family - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3041024082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3041024082 - Method 3152277940 - NamedType 3804341259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot delete record, at least one record must exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Batch - Method OnDelete - NamedType Text01Err</note>
+        </trans-unit>
+        <trans-unit id="Table 3041024082 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Batch - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3041024082 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Batch - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3041024082 - Field 47037625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Batch - Field Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 1189669097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Cost Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 568743302 - Method 2126772001 - NamedType 3804341259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item does not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Item No. - Method OnValidate - NamedType Text01Err</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 2481466368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Section Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1793506136 - Field 3882014708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Journal Line - Field Unit Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 1189669097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Cost Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2198785518 - Field 3882014708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Ledger Entry - Field Unit Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 106671491 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 106671491 - Method 3152277940 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete %1 because there is at least one %2 associated to this subfamily.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = "Code", %2 = EJ1Item.TableCaption()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Subfamily - Method OnDelete - NamedType Text001Err</note>
+        </trans-unit>
+        <trans-unit id="Table 106671491 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Subfamily - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 106671491 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Subfamily - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 106671491 - Field 751227357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Item Subfamily - Field Family Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 2632124822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Order Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3832195400 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Header - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 2202932243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2388278831 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Order Line - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 240836966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 240836966 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Setup - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 240836966 - Field 1917074728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Setup - Field Product Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 240836966 - Field 1501357998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EJ1 Production Setup - Field Production Order Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 10659517 - Method 1665861916 - NamedType 1327832897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to register the order?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EJ1 Production Order Post - Method OnRun - NamedType Text000Lbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a number that identifies an item family.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the item family.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Action 2586659099 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Subfamilys page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Action Subfamilys - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3190011943 - Action 2586659099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamilys</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Family - Action Subfamilys - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code of the item journal batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description of the item journal batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 47037625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. of the item journal batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3041024082 - Control 47037625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Batch - Control Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 1189669097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Cost Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 1189669097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Cost Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2481466368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the section code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Section Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 2481466368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Section Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3882014708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit cost price.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Unit Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 3882014708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control Unit Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 1779139815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the current batch name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control CurrentBatch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Control 1779139815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Current Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Control CurrentBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Action 4149417275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register the Item Journal Post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Action Register - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Action 4149417275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Action Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Action 4149417275 - Method 1377591017 - NamedType 218166550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to register the journal?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Action Register - Method OnAction - NamedType ConfirmTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 1793506136 - Action 4149417275 - Method 1377591017 - NamedType 2693324840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no lines in the journal to record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Journal Line - Action Register - Method OnAction - NamedType NoLinesTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 1189669097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost amount of the item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Cost Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 1189669097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Cost Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the document that the entry originated from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of document that the entry originated from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the location that the item ledger entry is related to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the entry was posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3882014708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit cost price of the item ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Unit Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2198785518 - Control 3882014708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Ledger Entry - Control Unit Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Subfamily</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The code of the item subfamily.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The description of the item subfamily.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 751227357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The code of the family to which the item subfamily belongs.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Family Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 106671491 - Control 751227357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Item Subfamily - Control Family Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About the Item Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>With the **Item Card** you manage information about a item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2142278257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the base unit of measure for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Base Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2142278257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Base Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 751227357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the family code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Family Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 751227357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Family Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 175818473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the subfamily code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Subfamily Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 175818473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamily Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Subfamily Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 1577904858 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replacement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Replacement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3737244698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost price for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3737244698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2598468274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the production order quantity for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Production Order Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 2598468274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Production Order Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 648973391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replacement Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control ReplacementFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 995090288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date filter for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 4277715959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location filter for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Location Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 1936001480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3119688693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor name for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 3119688693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Control 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Control Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Action 1008043521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Ledger Entry page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Action LedgerEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1461928345 - Action 1008043521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemCard - Action LedgerEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2142278257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the base unit of measure that is used for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Base Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2142278257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Base Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3737244698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Cost Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3737244698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Cost Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 751227357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the family code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Family Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 751227357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Family Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2598468274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the production order quantity for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Production Order Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 2598468274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Production Order Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 175818473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the subfamily code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Subfamily Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 175818473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamily Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Subfamily Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3119688693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor name for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 3119688693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 201380299 - Control 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 ItemList - Control Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Header Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the production order number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 2632124822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the production order was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Order Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the production order was posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item to be produced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the production order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit of measure for the quantity of the item to be produced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Control 292228915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subform Lin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Control SubformLin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Action 4149417275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register the production order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Action Register - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3295250516 - Action 4149417275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderD - Action Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2632124822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Order Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2632124822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Order Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2488644876 - Control 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order HeaderL - Control Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Location Code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 2202932243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2388278831 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Unit of Measure Code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Order Line - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Control 1917074728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The product serial no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Control Product Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Control 1917074728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Control Product Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Control 1501357998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The production order serial no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Control Production Order Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 240836966 - Control 1501357998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Serial No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Production Setup - Control Production Order Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Role Center Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3276313895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create New Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action Item - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3369611183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create New Production Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ProductionOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3369611183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ProductionOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3930027771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action Lists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1024293 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Family page, where you can view and manage Item Family.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemFamily - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1024293 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemFamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3541712948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Journal Batch page, where you can view and manage Item Journal Batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemJournalBatch - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3541712948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemJournalBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1595727278 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Journal Line page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemJournalLine - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1595727278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemJournalLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1719057576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Ledger Entry page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemLedgerEntry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1719057576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemLedgerEntry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 2768240657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item List page, where you can view and manage Item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 2768240657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 883479081 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Item Subfamily page, where you can view and manage Item Subfamily.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemSubfamily - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 883479081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Subfamily</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ItemSubfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1065711030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Production Order Header page, where you can view and manage Production Order Header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ProductionOrderHeader - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1065711030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action ProductionOrderHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3854284298 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Production Setup page, where you can view and manage Production setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action RegistrationSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 144307817 - Action 3854284298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EJ1 Role Center Items - Action RegistrationSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 661339243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile EJ1 MyProfile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 661339243 - Property 4111922599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile EJ1 MyProfile - Property ProfileDescription</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 737498079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue Consumption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 4075544376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Negative Adjustment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue NegativeAdjustment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 3927048656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Positive Adjustment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue PositiveAdjustment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 543313584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue ProductionOutput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 395510365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue Purchase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1793506136 - EnumValue 2315137949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Item Journal Line - EnumValue Sale - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3832195400 - EnumValue 3844911025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Canceled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Production Order Header - EnumValue Canceled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3832195400 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Production Order Header - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3832195400 - EnumValue 35450067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Production Order Header - EnumValue Posted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2388278831 - EnumValue 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Production Order Line - EnumValue Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2388278831 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EJ1 Production Order Line - EnumValue Item - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

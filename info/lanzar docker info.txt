@@ -1,0 +1,18 @@
+Levantar docker
+docker-compose -f C:\Users\zuric\Documents\Python\WebScrap\docker1\docker-compose.yml up
+
+docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
+
+docker run -d -p 4545:4444 —name selenium-hub selenium/hub
+
+
+Subir Imagen a Docker 
+Docker login
+
+Creamos un nuevo tag
+docker tag docker1-web zurichk/docker1-web:v1
+
+La subimos
+docker push zurichk/docker1-web:v1
+
+compruebo : https://hub.docker.com/
