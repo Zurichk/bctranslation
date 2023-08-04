@@ -27,12 +27,14 @@ def upload_file():
             new_file_name, errores_encontrados = generar_xml(request.files['filexml'])
             ruta = os.path.join(app.config['UPLOAD_FOLDER'], new_file_name)
             source_count, target_count = contar_etiquetas(ruta)
+            #ver en que carpeta estoy
+            print(os.getcwd())
             #OFRECER LINK de decarga del fichero generado
             return render_template('results.html', text = new_file_name, text1= "\n" + new_file_name + " generado correctamente." + "\n" + "Cantidad de etiquetas source: " + 
                                    str(source_count) + "\n" + "Cantidad de etiquetas target: " + str(target_count) + "\n" + errores_encontrados)
         except Exception as e:
             print ('Estoy entrando en la expeption')
-            return render_template('results.html', text=NO_VALID_XML)
+            return render_template('results.html', text1= "\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
 
         # if not os.environ.get('DOCKER', '') == "yes":
         #     myobj = gTTS(text=text, slow=False)
@@ -53,7 +55,7 @@ def download(filename):
         abort(500)
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(host='0.0.0.0', port=5000)
     
 def generar_xml(xml_file):
     errores_encontrados = ""
