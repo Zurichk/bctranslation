@@ -1,8 +1,10 @@
+git config --global user.name "Zurichk85"
+git config --global user.email zurich85aep@gmail.com
 
-
+echo "# bctranslation" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote set-url origin git@github.com:Zurichk85/bctranslation.git
+git remote add origin https://github.com/Zurichk/bctranslation.git
 git push -u origin main
