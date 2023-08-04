@@ -28,3 +28,9 @@ pip freeze > requirements.txt
 
 uvicorn main:app
 uvicorn fastapi:ap
+
+
+lanzar flask
+cd code
+set FLASK_APP=app.py
+set FLASK_ENV=development

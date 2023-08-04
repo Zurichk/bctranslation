@@ -11,7 +11,8 @@ else:
 
 ALLOWED_EXTENSIONS = set(['xlf'])
 
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route("/")
@@ -27,21 +28,11 @@ def upload_file():
             new_file_name, errores_encontrados = generar_xml(request.files['filexml'])
             ruta = os.path.join(app.config['UPLOAD_FOLDER'], new_file_name)
             source_count, target_count = contar_etiquetas(ruta)
-            #ver en que carpeta estoy
-            print(os.getcwd())
             #OFRECER LINK de decarga del fichero generado
             return render_template('results.html', text = new_file_name, text1= "\n" + new_file_name + " generado correctamente." + "\n" + "Cantidad de etiquetas source: " + 
                                    str(source_count) + "\n" + "Cantidad de etiquetas target: " + str(target_count) + "\n" + errores_encontrados)
         except Exception as e:
-            print ('Estoy entrando en la expeption')
             return render_template('results.html', text1= "\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
-
-        # if not os.environ.get('DOCKER', '') == "yes":
-        #     myobj = gTTS(text=text, slow=False)
-        #     myobj.save(app.config['UPLOAD_FOLDER'] + "/speech.mp3")
-        #     playsound(app.config['UPLOAD_FOLDER'] + "/speech.mp3")
-
-        # return render_template('results.html', text=text)
     return render_template('home.html')
 
 #Crear una ruta para descargar el fichero generado
