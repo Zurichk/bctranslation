@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, abort, send_file
 import os
 import xml.etree.ElementTree as ET
 from googletrans import Translator
+import requests, uuid, json
 
 if os.environ.get('DOCKER', '') == "yes":
     UPLOAD_FOLDER = '/usr/src/app/traducciones'
@@ -62,7 +63,7 @@ def generar_xml(xml_file):
     # Obtener el nombre del archivo de la etiqueta <file> y agregar "-ES.xlf"
     file_element = root.find('ns0:file', ns)
     original_name = file_element.get('original')
-    new_file_name = original_name + ".es.xlf"
+    new_file_name = original_name + ".g-es.xlf"
 
     # Modificar el atributo target-language a "es-ES"
     file_element.set('target-language', 'es-ES')
@@ -131,3 +132,38 @@ def contar_etiquetas(new_file_name):
     print("Cantidad de etiquetas <target>: ", target_count)
     
     return source_count, target_count
+
+def azure_translator():
+    # Add your key and endpoint
+    key = "754ad9f675e64545b82e26165b001567"
+    endpoint = "https://api.cognitive.microsofttranslator.com"
+
+    # location, also known as region.
+    # required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
+    location = "westeurope"
+
+    path = '/translate'
+    constructed_url = endpoint + path
+
+    params = {
+        'api-version': '3.0',
+        'from': 'en',
+        'to': ['es']
+    }
+
+    headers = {
+        'Ocp-Apim-Subscription-Key': key,
+        # location required if you're using a multi-service or regional (not global) resource.
+        'Ocp-Apim-Subscription-Region': location,
+        'Content-type': 'application/json',
+        'X-ClientTraceId': str(uuid.uuid4())
+    }
+    # You can pass more than one object in body.
+    body = [{
+        'text': 'Item'
+    }]
+
+    request = requests.post(constructed_url, params=params, headers=headers, json=body)
+    response = request.json()
+
+    print(json.dumps(response, sort_keys=True, ensure_ascii=False, indent=4, separators=(',', ': ')))
