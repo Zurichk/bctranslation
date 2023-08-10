@@ -24,9 +24,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mr-3">
     <div class="container-fluid">
-      <!-- agregar Imagen -->
+
       <a class="navbar-brand" href="/">
         <img src="{{ url_for('static', filename='favicon.png') }}" alt="" width="40" height="40"
           class="d-inline-block align-text-top">
@@ -43,6 +43,31 @@
           </li>
         </ul>
       </div>
+      <!-- Nuevo enlace con menú desplegable -->
+      <ul class="navbar-nav mr-3" style="margin-right: 40px;"> <!-- Aplicar margen a la derecha -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            + Proyectos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Disabled1</a></li>
+            <li><a class="dropdown-item" href="#">Disabled2</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/adri%C3%A1n-esp%C3%AD-pe%C3%B1a-a74304185/"
+                target="_blank"><img src="static/linkedin.png" alt="YouTube" class="icon" style="width: 20px;"> Linkedin
+              </a></li>
+            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCa9c3-J_onhqTzerBmbXWBw"
+                target="_blank"><img src="static/youtube.png" alt="YouTube" class="icon" style="width: 20px;">
+                Youtube</a>
+            </li>
+            <li><a class="dropdown-item" href="https://zurichk.github.io/" target="_blank"><img src="static/cv.png"
+                  alt="YouTube" class="icon" style="width: 20px;"> CV</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </nav>
   <div class="container">
