@@ -26,7 +26,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <!-- agrewgar Imagen -->
+      <!-- agregar Imagen -->
       <a class="navbar-brand" href="/">
         <img src="{{ url_for('static', filename='favicon.png') }}" alt="" width="40" height="40"
           class="d-inline-block align-text-top">
@@ -48,6 +48,14 @@
   <div class="container">
     <div class="container-fluid text-center mt-5 mb-5">
       <h1>Traductor Business Central Extension</h1>
+    </div>
+    <div>
+      <h5>Aplicación desarrollada para automatizar las traducciones de Business Central</h5>
+      <h6><i>En primer lugar, comprobará las palabras o frases que coincidan con el Standard de Business Central, en el
+          caso de que no exista coincidencia exacta, se conectará a google translator, para realizar la traducción.
+          Existe
+          la posibilidad de que una vez realizada la traducción mediante google, se cambien algunas palabras para que la
+          traduccion se asemeje al standard (Como por ejemplo, Artículo por Producto, o Tarjeta por Ficha)</i></h6>
     </div>
   </div>
   <main role="main" class="container  bg-light p-3 border rounded">

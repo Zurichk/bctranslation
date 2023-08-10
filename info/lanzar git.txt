@@ -11,3 +11,14 @@ git push -u origin main
 
 
 subir a render
+https://dashboard.render.com/
+
+New / WebServices   
+
+LA OPCION Public Git repository
+Use a public repository by entering the URL below. Features like PR Previews and Auto-Deploy are not available if the repository has not been configured for Render.
+
+https://github.com/Zurichk/bctranslation
+
+rendbctrans
+Frank (EU Central)

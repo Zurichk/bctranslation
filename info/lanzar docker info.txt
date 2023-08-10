@@ -5,7 +5,6 @@ docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chro
 
 docker run -d -p 4545:4444 —name selenium-hub selenium/hub
 
-
 Subir Imagen a Docker 
 Docker login
 

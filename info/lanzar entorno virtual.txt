@@ -6,7 +6,6 @@ py -m pip install --upgrade pip
 instalar el paquete python virtualenv:
 py -m pip install --user virtualenv
 
-
 ***Creando Entorno***
 Ir a carpeta de tu proyecto.
 cd C:\Users\zuric\Documents
@@ -18,7 +17,8 @@ py -m venv DockerSelenium
 
 Activar el entorno virtual desde windows CMD
 .\DockerSelenium\Scripts\activate
-.\DockerSelenium\Scripts\activate
+
+pip install -r requirements.txt
 
 desde git 
 source FirstPythonAppVenv/bin/activate
@@ -28,7 +28,6 @@ pip freeze > requirements.txt
 
 uvicorn main:app
 uvicorn fastapi:ap
-
 
 lanzar flask
 cd code
