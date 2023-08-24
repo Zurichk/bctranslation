@@ -19,52 +19,6 @@ app = Flask(__name__, static_url_path='/static')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
-@app.route("/")
-def home():
-    return render_template('home.html')
-
-
-@app.route('/uploader', methods=['POST'])
-def upload_file():
-    NO_VALID_XML = "No se ha proporcionado una fichero xlf válido."
-    if request.method == 'POST' and request.files:
-        try:
-            new_file_name, errores_encontrados, contadorStandar, contadorGoogle = generar_xml(
-                request.files['filexml'])
-            ruta = os.path.join(app.config['UPLOAD_FOLDER'], new_file_name)
-            source_count, target_count, = contar_etiquetas(ruta)
-            # OFRECER LINK de decarga del fichero generado
-            if errores_encontrados != "":
-                return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
-                                       str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
-                                       "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
-                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle) + "\nErrores encontrados:\n" + errores_encontrados)
-            else:
-                return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
-                                       str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
-                                       "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
-                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle))
-        except Exception as e:
-            return render_template('results.html', text1="\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
-    return render_template('home.html')
-
-# Crear una ruta para descargar el fichero generado
-
-
-@app.route('/download/<path:filename>', methods=['GET', 'POST'])
-def download(filename):
-    try:
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        return send_file(file_path, as_attachment=True)
-    except Exception as e:
-        print("Error en la descarga:", e)
-        abort(500)
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
-
-
 def generar_xml(xml_file):
     errores_encontrados = ""
     xml_file = request.files['filexml']
@@ -86,19 +40,23 @@ def generar_xml(xml_file):
 
     # Cargar el diccionario de traducciones desde un archivo (diccionario.txt)
     translation_dict = {}
-    # try:
-    #     with open('diccionarioprevio.txt', 'r', encoding='utf-8') as dict_file:
-    #         for line in dict_file:
-    #             key, value = line.strip().split('~')
-    #             translation_dict[key] = value
-    # except FileNotFoundError:
-    #     print("El archivo de diccionario no se encontró.")
+    try:
+        with open('diccionarioprevio.txt', 'r', encoding='utf-8') as dict_file:
+            for line in dict_file:
+                key, value = line.strip().split('~')
+                # Comprobamos si la palabra ya existe en el diccionario si no existe la añadimos
+                if key not in translation_dict:
+                    translation_dict[key] = value
+    except FileNotFoundError:
+        print("El archivo de diccionario no se encontró.")
 
     try:
         with open('diccionario.txt', 'r', encoding='utf-8') as dict_file:
             for line in dict_file:
                 key, value = line.strip().split('~')
-                translation_dict[key] = value
+                if key not in translation_dict:
+                    translation_dict[key] = value
+
     except FileNotFoundError:
         print("El archivo de diccionario no se encontró.")
 
@@ -210,42 +168,48 @@ def contar_etiquetas(new_file_name):
     print("Cantidad de etiquetas <target>: ", target_count)
     return source_count, target_count
 
-# No lo uso
+
+@app.route("/")
+def home():
+    return render_template('home.html')
 
 
-def azure_translator():
-    # Add your key and endpoint
-    key = "754ad9f675e64545b82e26165b001567"
-    endpoint = "https://api.cognitive.microsofttranslator.com"
+@app.route('/uploader', methods=['POST'])
+def upload_file():
+    NO_VALID_XML = "No se ha proporcionado una fichero xlf válido."
+    if request.method == 'POST' and request.files:
+        try:
+            new_file_name, errores_encontrados, contadorStandar, contadorGoogle = generar_xml(
+                request.files['filexml'])
+            ruta = os.path.join(app.config['UPLOAD_FOLDER'], new_file_name)
+            source_count, target_count, = contar_etiquetas(ruta)
+            # OFRECER LINK de decarga del fichero generado
+            if errores_encontrados != "":
+                return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
+                                       str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
+                                       "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
+                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle) + "\nErrores encontrados:\n" + errores_encontrados)
+            else:
+                return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
+                                       str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
+                                       "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
+                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle))
+        except Exception as e:
+            return render_template('results.html', text1="\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
+    return render_template('home.html')
 
-    # location, also known as region.
-    # required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
-    location = "westeurope"
+# Crear una ruta para descargar el fichero generado
 
-    path = '/translate'
-    constructed_url = endpoint + path
 
-    params = {
-        'api-version': '3.0',
-        'from': 'en',
-        'to': ['es']
-    }
+@app.route('/download/<path:filename>', methods=['GET', 'POST'])
+def download(filename):
+    try:
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        return send_file(file_path, as_attachment=True)
+    except Exception as e:
+        print("Error en la descarga:", e)
+        abort(500)
 
-    headers = {
-        'Ocp-Apim-Subscription-Key': key,
-        # location required if you're using a multi-service or regional (not global) resource.
-        'Ocp-Apim-Subscription-Region': location,
-        'Content-type': 'application/json',
-        'X-ClientTraceId': str(uuid.uuid4())
-    }
-    # You can pass more than one object in body.
-    body = [{
-        'text': 'Item'
-    }]
 
-    request = requests.post(
-        constructed_url, params=params, headers=headers, json=body)
-    response = request.json()
-
-    print(json.dumps(response, sort_keys=True,
-          ensure_ascii=False, indent=4, separators=(',', ': ')))
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)

@@ -24,13 +24,9 @@ Sales Invoice Line ~ Subform Lín. Hist. Lín. Factura Venta
 Sales Cr. Memo Header Doc. ~ Hist. Abono de Venta
 Sales Cr. Memo Header List ~ Lista de Hist. Abonos de Venta
 Sales Cr. Memo Line ~ Subform Lín. Hist. Lín. Abono Venta
-Customer ~ Cliente
 Shipping Address ~ Dirección de Envío
-Shipping Address List ~ Lista de Direcciones de envío 
-Cust. Ledger Entry ~ Mov. Cliente
 Sales Header ~ Cab. Venta
 Sales Line ~ Lín. Venta
-Gen. Jnl. Batch ~ Secciones Diario General
 Gen. Jnl. Line ~ Lín. Diario General
 Sales Shipment Header ~ Cab. Albarán Venta
 Sales Shipment Line ~ Lín. Albarán
@@ -46,10 +42,6 @@ Credit Memo Series Code ~ No. Serie Abono
 Shipment Series Code ~ No. Serie Albarán
 Posted Invoice Series Code ~ No. Serie Fact Reg.
 Posted Credit Memo Series Code ~ No. Serie Abono Reg.
-Name ~ Nombre
-Address ~ Dirección
-City ~ Población
-Phone No. ~ Nº teléfono
 Max Credit (LCY) ~ Crédito máximo (DL)
 Payment Terms Code ~ Cód. términos pago
 Salesperson Code ~ Cód. vendedor
@@ -59,20 +51,8 @@ Country/Region Code ~ Cód. país/región
 Payment Method Code ~ Cód. forma pago
 Balance (DL) ~ Saldo (DL)
 VAT Registration No. ~ CIF/NIF
-Post Code ~ C.P.
-County ~ Provincia
-Email ~ Correo electrónico
-Web Page ~ Página Web
-Customer No. ~ Nº cliente
-Code ~ Código
-Name ~ Nombre
-Address ~ Dirección
-City ~ Población
-Phone No. ~ Nº teléfono
-Shipment Method Code ~ Cód. condiciones envío
 Shipping Agent Code ~ Cód. transportista
 Country/Region Code ~ Cód. país/región
-Post Code ~ C.P.
 County ~ Provincia
 Entry No. ~ Nº mov.
 Customer No. ~ Nº cliente
@@ -80,9 +60,7 @@ Posting Date ~ Fecha registro
 Document Type ~ Tipo documento
 Document No. ~ Nº documento
 Description ~ Descripción
-Amount ~ Importe
 Remaining Amount ~ Importe pendiente
-Salesperson Code ~ Cód. vendedor
 Is Positive ~ Positivo
 Bill No. ~ Nº efecto
 Applies-to ID ~ ID Liquidación
@@ -98,11 +76,8 @@ Ship-to County ~ Envío a-Provincia
 Order Date ~ Fecha pedido
 Posting Date ~ Fecha registro
 Shipment Date ~ Fecha envío
-Payment Terms Code ~ Cód. términos pago
-Shipment Method Code ~ Cód. condiciones envío
-Salesperson Code ~ Cód. vendedor
 Shipment ~ Envío
-Invoice	Factura
+Invoice ~ Factura
 Next Shipment No. ~ Nº sig. albarán venta
 Next Invoice No. ~ Nº sig. factura
 Sell-to Name ~ Venta a-Nombre
@@ -139,8 +114,6 @@ Line No. ~ Nº línea
 Posting Date ~ Fecha registro
 Document No. ~ No. Documento
 Bill No. ~ No. Efecto
-Description ~ Descripción
-Amount ~ Importe
 Applies-to Doc. Type ~ Liq. por tipo documento
 Applies-to Doc. No. ~ Liq. por No. documento
 Applies-to Bill No. ~ Liq. por No. Efecto
@@ -155,9 +128,6 @@ Ship-to County ~ Envío a-Provincia
 Order Date ~ Fecha pedido
 Posting Date ~ Fecha registro
 Shipment Date ~ Fecha envío
-Payment Terms Code ~ Cód. términos pago
-Shipment Method Code ~ Cód. condiciones envío
-Salesperson Code ~ Cód. vendedor
 Sell-to Name ~ Venta a-Nombre
 Sell-to Address ~ Venta a-Dirección
 Sell-to City ~ Venta a-Población
@@ -188,10 +158,7 @@ Ship-to County ~ Envío a-Provincia
 Order Date ~ Fecha pedido
 Posting Date ~ Fecha registro
 Shipment Date ~ Fecha envío
-Payment Terms Code ~ Cód. términos pago
 Due Date ~ Fecha vencimiento
-Shipment Method Code ~ Cód. condiciones envío
-Salesperson Code ~ Cód. vendedor
 Sell-to Name ~ Venta a-Nombre
 Sell-to Address ~ Venta a-Dirección
 Sell-to City ~ Venta a-Población
@@ -203,8 +170,3 @@ Shipping Agent Code ~ Cód. transportista
 No. Series ~ Nos. serie
 Posting No. Series ~ Nº serie registro
 Shipment No. Series ~ Nº serie alb. venta
-Location Code ~ Cód. almacén
-Description ~ Descripción
-Quantity ~ Cantidad
-Unit Price ~ Precio venta
-Amount ~ Importe
