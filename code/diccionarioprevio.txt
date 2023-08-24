@@ -1,0 +1,217 @@
+Sales Setup ~ Configuración Ventas
+Customer Card ~ Ficha Cliente
+Customer List ~ Lista de Clientes
+Shipping Address Card ~ Ficha Dirección Envío
+Shipping Address List ~ Lista de Direcciones de envío
+Cust. Ledger Entry ~ Mov. Cliente
+Sales Header Doc ~ Pedido Venta
+Sales Header List ~ Lista de Pedidos de Venta
+Sales Invoice Doc ~ Factura Venta
+Sales Invoice List ~ Lista de Facturas de Venta
+Sales Credit Doc ~ Abono Venta
+Sales Credit List ~ Lista de Abonos de Venta
+Sales Line Order ~ Subform lín. Pedido Venta
+Sales Line Invoce ~ Subform lín. Factura Venta
+Sales Line Credit ~ Subform lín. Abono Venta
+Gen. Jnl. Batch ~ Secciones Diario General
+Gen. Jnl. Line ~ Diario General
+Sales Shipment Header Doc. ~ Hist. Albarán de Venta
+Sales Shipment Header List ~ Lista de Hist. Albaranes de Venta
+Sales Shipment Line ~ Subform Lín. Hist. Lín. Albarán Venta
+Sales Invoice Header Doc. ~ Hist. Factura de Venta
+Sales Invoice Header List ~ Lista de Hist. Facturas de Venta
+Sales Invoice Line ~ Subform Lín. Hist. Lín. Factura Venta
+Sales Cr. Memo Header Doc. ~ Hist. Abono de Venta
+Sales Cr. Memo Header List ~ Lista de Hist. Abonos de Venta
+Sales Cr. Memo Line ~ Subform Lín. Hist. Lín. Abono Venta
+Customer ~ Cliente
+Shipping Address ~ Dirección de Envío
+Shipping Address List ~ Lista de Direcciones de envío 
+Cust. Ledger Entry ~ Mov. Cliente
+Sales Header ~ Cab. Venta
+Sales Line ~ Lín. Venta
+Gen. Jnl. Batch ~ Secciones Diario General
+Gen. Jnl. Line ~ Lín. Diario General
+Sales Shipment Header ~ Cab. Albarán Venta
+Sales Shipment Line ~ Lín. Albarán
+Sales Invoice Header ~ Cab. Factura Venta
+Sales Invoice Line ~ Lín. Factura Venta
+Sales Cr. Memo Header ~ Cab. Abono Venta
+Sales Cr. Memo Line ~ Lín. Abono Venta
+Key ~ Clave
+Customer Series Code ~ No. Serie Cliente
+Order Series Code ~ No. Serie Pedido
+Invoice Series Code ~ No. Serie Factura
+Credit Memo Series Code ~ No. Serie Abono
+Shipment Series Code ~ No. Serie Albarán
+Posted Invoice Series Code ~ No. Serie Fact Reg.
+Posted Credit Memo Series Code ~ No. Serie Abono Reg.
+Name ~ Nombre
+Address ~ Dirección
+City ~ Población
+Phone No. ~ Nº teléfono
+Max Credit (LCY) ~ Crédito máximo (DL)
+Payment Terms Code ~ Cód. términos pago
+Salesperson Code ~ Cód. vendedor
+Shipment Method Code ~ Cód. condiciones envío
+Shipping Agent Code ~ Cód. transportista
+Country/Region Code ~ Cód. país/región
+Payment Method Code ~ Cód. forma pago
+Balance (DL) ~ Saldo (DL)
+VAT Registration No. ~ CIF/NIF
+Post Code ~ C.P.
+County ~ Provincia
+Email ~ Correo electrónico
+Web Page ~ Página Web
+Customer No. ~ Nº cliente
+Code ~ Código
+Name ~ Nombre
+Address ~ Dirección
+City ~ Población
+Phone No. ~ Nº teléfono
+Shipment Method Code ~ Cód. condiciones envío
+Shipping Agent Code ~ Cód. transportista
+Country/Region Code ~ Cód. país/región
+Post Code ~ C.P.
+County ~ Provincia
+Entry No. ~ Nº mov.
+Customer No. ~ Nº cliente
+Posting Date ~ Fecha registro
+Document Type ~ Tipo documento
+Document No. ~ Nº documento
+Description ~ Descripción
+Amount ~ Importe
+Remaining Amount ~ Importe pendiente
+Salesperson Code ~ Cód. vendedor
+Is Positive ~ Positivo
+Bill No. ~ Nº efecto
+Applies-to ID ~ ID Liquidación
+Open ~ Pendiente
+Sell-to Customer No. ~ Venta a-Nº cliente
+Your Reference ~ Su/Ntra. ref.
+Ship-to Customer Code ~ Cód. dirección envío cliente
+Ship-to Name ~ Envío a-Nombre
+Ship-to Address ~ Envío a-Dirección
+Ship-to City ~ Envío a-Población
+Ship-to Post Code ~ Envío a-C.P.
+Ship-to County ~ Envío a-Provincia
+Order Date ~ Fecha pedido
+Posting Date ~ Fecha registro
+Shipment Date ~ Fecha envío
+Payment Terms Code ~ Cód. términos pago
+Shipment Method Code ~ Cód. condiciones envío
+Salesperson Code ~ Cód. vendedor
+Shipment ~ Envío
+Invoice	Factura
+Next Shipment No. ~ Nº sig. albarán venta
+Next Invoice No. ~ Nº sig. factura
+Sell-to Name ~ Venta a-Nombre
+Sell-to Address ~ Venta a-Dirección
+Sell-to City ~ Venta a-Población
+Sell-to Post Code ~ Venta a-C.P.
+Sell-to County ~ Venta a-Provincia
+Sell-to Country/Region Code ~ Venta a-Cód. país/región
+Payment Method Code ~ Cód. forma pago
+Shipping Agent Code ~ Cód. transportista
+Posting No. Series ~ Nº serie registro
+Shipment No. Series ~ Nº serie alb. venta
+Line No. ~ Nº línea
+Sell-to Customer No. ~ Venta a-Nº cliente
+No. ~ Nº
+Location Code ~ Cód. almacén
+Description ~ Descripción
+Quantity ~ Cantidad
+Outstanding Quantity ~ Cantidad pendiente
+Quantity to Invoice ~ Cdad. a facturar
+Quantity to Ship ~ Cantidad a enviar
+Unit Price ~ Precio venta
+Qty. Shipped Not Invoiced ~ Cantidad enviada no facturada
+Shipped Quantity ~ Cantidad enviada
+Invoiced Quantity ~ Cantidad facturada
+Amount ~ Importe
+Shipment No. ~ Nº albarán
+Shipment Line No. ~ Nº línea albarán
+Code ~ Código
+Description ~ Descripción
+Series Code ~ No. Serie
+Journal Batch Name ~ Nombre Sección
+Line No. ~ Nº línea
+Posting Date ~ Fecha registro
+Document No. ~ No. Documento
+Bill No. ~ No. Efecto
+Description ~ Descripción
+Amount ~ Importe
+Applies-to Doc. Type ~ Liq. por tipo documento
+Applies-to Doc. No. ~ Liq. por No. documento
+Applies-to Bill No. ~ Liq. por No. Efecto
+Sell-to Customer No. ~ Venta a-Nº cliente
+Your Reference ~ Su/Ntra. ref.
+Ship-to Customer Code ~ Cód. dirección envío cliente
+Ship-to Name ~ Envío a-Nombre
+Ship-to Address ~ Envío a-Dirección
+Ship-to City ~ Envío a-Población
+Ship-to Post Code ~ Envío a-C.P.
+Ship-to County ~ Envío a-Provincia
+Order Date ~ Fecha pedido
+Posting Date ~ Fecha registro
+Shipment Date ~ Fecha envío
+Payment Terms Code ~ Cód. términos pago
+Shipment Method Code ~ Cód. condiciones envío
+Salesperson Code ~ Cód. vendedor
+Sell-to Name ~ Venta a-Nombre
+Sell-to Address ~ Venta a-Dirección
+Sell-to City ~ Venta a-Población
+Sell-to Post Code ~ Venta a-C.P.
+Sell-to County ~ Venta a-Provincia
+Sell-to Country/Region Code ~ Venta a-Cód. país/región
+Payment Method Code ~ Cód. forma pago
+Shipping Agent Code ~ Cód. transportista
+Posting No. Series ~ Nº serie registro
+Shipment No. Series ~ Nº serie alb. venta
+Line No. ~ Nº línea
+Sell-to Customer No. ~ Venta a-Nº cliente
+Type ~ Tipo
+Location Code ~ Cód. almacén
+Description ~ Descripción
+Quantity ~ Cantidad
+Outstanding Quantity ~ Cantidad pendiente
+Unit Price ~ Precio venta
+Invoiced Quantity ~ Cantidad facturada
+Sell-to Customer No. ~ Venta a-Nº cliente
+Your Reference ~ Su/Ntra. ref.
+Ship-to Customer Code ~ Cód. dirección envío cliente
+Ship-to Name ~ Envío a-Nombre
+Ship-to Address ~ Envío a-Dirección
+Ship-to City ~ Envío a-Población
+Ship-to Post Code ~ Envío a-C.P.
+Ship-to County ~ Envío a-Provincia
+Order Date ~ Fecha pedido
+Posting Date ~ Fecha registro
+Shipment Date ~ Fecha envío
+Payment Terms Code ~ Cód. términos pago
+Due Date ~ Fecha vencimiento
+Shipment Method Code ~ Cód. condiciones envío
+Salesperson Code ~ Cód. vendedor
+Sell-to Name ~ Venta a-Nombre
+Sell-to Address ~ Venta a-Dirección
+Sell-to City ~ Venta a-Población
+Sell-to Post Code ~ Venta a-C.P.
+Sell-to County ~ Venta a-Provincia
+Sell-to Country/Region Code ~ Venta a-Cód. país/región
+Payment Method Code ~ Cód. forma pago
+Shipping Agent Code ~ Cód. transportista
+No. Series ~ Nos. serie
+Posting No. Series ~ Nº serie registro
+Shipment No. Series ~ Nº serie alb. venta
+Location Code ~ Cód. almacén
+Description ~ Descripción
+Quantity ~ Cantidad
+Unit Price ~ Precio venta
+Amount ~ Importe
+
+
+
+
+
+
+
