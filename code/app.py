@@ -86,13 +86,13 @@ def generar_xml(xml_file):
 
     # Cargar el diccionario de traducciones desde un archivo (diccionario.txt)
     translation_dict = {}
-    try:
-        with open('diccionarioprevio.txt', 'r', encoding='utf-8') as dict_file:
-            for line in dict_file:
-                key, value = line.strip().split('~')
-                translation_dict[key] = value
-    except FileNotFoundError:
-        print("El archivo de diccionario no se encontró.")
+    # try:
+    #     with open('diccionarioprevio.txt', 'r', encoding='utf-8') as dict_file:
+    #         for line in dict_file:
+    #             key, value = line.strip().split('~')
+    #             translation_dict[key] = value
+    # except FileNotFoundError:
+    #     print("El archivo de diccionario no se encontró.")
 
     try:
         with open('diccionario.txt', 'r', encoding='utf-8') as dict_file:
