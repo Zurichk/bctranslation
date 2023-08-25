@@ -2,3 +2,5 @@ Artículo ~ Producto
 Tarjeta ~ Ficha
 Código de la serie de ~ No. Serie
 Código de series de ~ No. Serie
+Post ~ Registrar
+Mark ~ Marcar
