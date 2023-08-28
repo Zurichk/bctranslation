@@ -1,3 +1,4 @@
+Do yo want to register the journal? ~ ¿Quieres registrar el diario?
 The Applies-to Bill No. cant be empty ~ El número de Efecto a liquidar no puede estar vacío
 The Bill No. cant be empty ~ El número de Efecto no puede estar vacío
 The Bill No. ~ El número de Efecto
