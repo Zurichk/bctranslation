@@ -88,7 +88,7 @@ def generar_xml(xml_file):
                     #       key.lower().strip(" ") + "]")
                     if source_text.lower() == key.lower().strip(" "):
                         target = ET.Element('target')
-                        target.text = str(value).strip(" ")
+                        target.text = str(value).strip(" ").capitalize()
                         print(
                             "Encuentro la traducción en el diccionario " + target.text)
                         contador1 += 1
