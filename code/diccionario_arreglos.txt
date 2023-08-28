@@ -6,3 +6,4 @@ Post ~ Registrar
 Mark ~ Marcar
 Después de la ~ Registrar
 Después de ~ Registrar
+la revista ~ el diario
