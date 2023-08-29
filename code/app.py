@@ -76,6 +76,7 @@ def generar_xml(xml_file):
 
     contador1 = 0
     contador2 = 0
+    contador3 = 0
     for trans_unit in root.findall('.//ns0:trans-unit', ns):
         source = trans_unit.find('ns0:source', ns)
         try:
@@ -108,12 +109,19 @@ def generar_xml(xml_file):
                     # si dentro de alguna palabras de las frases de target.text esta dentro de translation_dict_Individual cambiar
                     # por la traduccion de translation_dict_Individual
                     for key, value in translation_dict_Individual.items():
-                        print("["+target.text.lower() + "] [" +
+                        print("[" + target.text.lower() + "] [" +
                               key.lower().strip(" ") + "]")
                         if key.lower().strip(" ") in target.text.lower():
-                            # cambiar la parte que coincide por la traduccion
-                            target.text = target.text.lower().replace(
-                                key.lower().strip(" "), value.strip(" ")).capitalize()
+                            # Verificar si no empieza con un símbolo antes de capitalizar
+                            if not target.text.startswith(('¿', '¡', '!', '?', '.')):
+                                # Cambiar la parte que coincide por la traducción y capitalizar
+                                target.text = target.text.lower().replace(
+                                    key.lower().strip(" "), value.strip(" ")).capitalize()
+                            else:
+                                # Cambiar la parte que coincide por la traducción sin capitalizar
+                                target.text = target.text.lower().replace(
+                                    key.lower().strip(" "), value.strip(" "))
+                            contador3 += 1
                             # print(
                             #     "Encuentro la traducción en el diccionario Individual " + str(value))
                     contador2 += 1
@@ -125,7 +133,7 @@ def generar_xml(xml_file):
 
         except Exception as e:
             print(f"Error en la traducción: {e} - {source_text}")
-            errores_encontrados += f"Error en la traducción: {e} - {source_text}\n"
+            errores_encontrados += f"Error en la traducción: {e} - {source_text} - linea {contador2} + {contador1} \n"
 
     # Eliminar los prefijos "ns0" antes de guardar el nuevo árbol
     ET.register_namespace('', 'urn:oasis:names:tc:xliff:document:1.2')
@@ -138,7 +146,7 @@ def generar_xml(xml_file):
 
     # new_tree.write(new_file_name, encoding="utf-8", xml_declaration=True)
     print("Contador1 " + str(contador1) + " - Contador2 " + str(contador2))
-    return new_file_name, errores_encontrados, contador1, contador2
+    return new_file_name, errores_encontrados, contador1, contador2, contador3
 
 
 def contar_etiquetas(new_file_name):
@@ -179,7 +187,7 @@ def upload_file():
     NO_VALID_XML = "No se ha proporcionado una fichero xlf válido."
     if request.method == 'POST' and request.files:
         try:
-            new_file_name, errores_encontrados, contadorStandar, contadorGoogle = generar_xml(
+            new_file_name, errores_encontrados, contadorStandar, contadorGoogle, contadorModificados = generar_xml(
                 request.files['filexml'])
             ruta = os.path.join(app.config['UPLOAD_FOLDER'], new_file_name)
             source_count, target_count, = contar_etiquetas(ruta)
@@ -188,12 +196,15 @@ def upload_file():
                 return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
                                        str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
                                        "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
-                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle) + "\nErrores encontrados:\n" + errores_encontrados)
+                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle) +
+                                       "\nArreglos realizados con el diccionario de arreglos: " + str(contadorModificados) +
+                                       "\nErrores encontrados:\n" + errores_encontrados)
             else:
                 return render_template('results.html', text=new_file_name, text1="\n" + new_file_name + " generado correctamente." + "\nCantidad de etiquetas source: " +
                                        str(source_count) + "\nCantidad de etiquetas target: " + str(target_count) +
                                        "\nTraducciones realizadas con el diccionario del Standard: " + str(contadorStandar) +
-                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle))
+                                       "\nTraducciones realizadas con el Traductor de Google: " + str(contadorGoogle) +
+                                       "\nArreglos realizados con el diccionario de arreglos: " + str(contadorModificados))
         except Exception as e:
             return render_template('results.html', text1="\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
     return render_template('home.html')
