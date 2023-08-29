@@ -77,6 +77,8 @@ def generar_xml(xml_file):
     contador1 = 0
     contador2 = 0
     contador3 = 0
+    symbols_to_check = ['¿', '¡', '!', '?', '.']
+
     for trans_unit in root.findall('.//ns0:trans-unit', ns):
         source = trans_unit.find('ns0:source', ns)
         try:
@@ -87,7 +89,7 @@ def generar_xml(xml_file):
                 for key, value in translation_dict.items():
                     if source_text.lower() == key.lower().strip(" "):
                         target = ET.Element('target')
-                        if not target.text.startswith(('¿', '¡', '!', '?', '.')):
+                        if not any(value.startswith(symbol) for symbol in symbols_to_check):
                             target.text = str(value).strip(" ").capitalize()
                         else:
                             target.text = str(value).strip(" ")
@@ -114,7 +116,7 @@ def generar_xml(xml_file):
                               key.lower().strip(" ") + "]")
                         if key.lower().strip(" ") in target.text.lower():
                             # Verificar si no empieza con un símbolo antes de capitalizar
-                            if not target.text.startswith(('¿', '¡', '!', '?', '.')):
+                            if not any(value.startswith(symbol) for symbol in symbols_to_check):
                                 # Cambiar la parte que coincide por la traducción y capitalizar
                                 target.text = target.text.lower().replace(
                                     key.lower().strip(" "), value.strip(" ")).capitalize()
