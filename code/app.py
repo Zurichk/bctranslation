@@ -83,13 +83,15 @@ def generar_xml(xml_file):
             if source is not None:
                 source_text = source.text
                 # print("Texto a traducir: " + source_text)
+                symbols_to_check = ['¿', '¡', '!', '?', '.']
+
                 for key, value in translation_dict.items():
-                    # print(source_text + " - " + key + " - " + value)
-                    # print("["+source_text.lower() + "] [" +
-                    #       key.lower().strip(" ") + "]")
                     if source_text.lower() == key.lower().strip(" "):
                         target = ET.Element('target')
-                        target.text = str(value).strip(" ").capitalize()
+                        if not any(target.text.startswith(symbol) for symbol in symbols_to_check):
+                            target.text = str(value).strip(" ").capitalize()
+                        else:
+                            target.text = str(value).strip(" ")
                         print(
                             "Encuentro la traducción en el diccionario " + target.text)
                         contador1 += 1
