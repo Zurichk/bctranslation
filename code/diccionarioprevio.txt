@@ -176,3 +176,8 @@ Shipping Agent Code ~ Cód. transportista
 No. Series ~ Nos. serie
 Posting No. Series ~ Nº serie registro
 Shipment No. Series ~ Nº serie alb. venta
+The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Linea %1
+The Applies-to Bill No. cant be empty. Line No. %1 ~ La Liq. por No. Efecto. no puedo esta vacia. Nº Linea %1
+Specifies the bill number ~ Especifica el número de efecto.
+Specifies the Applies-to Bill No. ~ Especifica la Liq. por No. Efecto.
+Applies-to Doc. Type ~ Liq. por tipo documento

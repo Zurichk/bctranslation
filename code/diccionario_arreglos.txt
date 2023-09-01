@@ -3,7 +3,10 @@ Tarjeta ~ Ficha
 Código de la serie de ~ No. Serie
 Código de series de ~ No. Serie
 Post ~ Registrar
+publicado ~ registrado
+publicar ~ registrar
 Mark ~ Marcar
 Después de la ~ Registrar
 Después de ~ Registrar
 la revista ~ el diario
+La cantidad a la factura ~ La cantidad a facturar
