@@ -1,6 +1,8 @@
+Post ~ Registrar
 The Bill No. cant be empty. Line No. %1 ~ El Nº efecto no puede estar vacio. Nº linea %1
 Do you want to post the journal? ~ ¿Quieres registrar el diario?
 Ship,Invoice,Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
+Ship, Invoice, Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
 Get &amp;Shipment Lines ~ Traer líneas alb. venta
 Get Shipment Line ~ Obtener línea de albarán
 There are no lines in the journal to post ~ No hay líneas en el diario para registrar
@@ -188,3 +190,15 @@ The Applies-to Bill No. cant be empty. Line No. %1 ~ La Liq. por No. Efecto. no 
 Specifies the bill number ~ Especifica el número de efecto.
 Specifies the Applies-to Bill No. ~ Especifica la Liq. por No. Efecto.
 Applies-to Doc. Type ~ Liq. por tipo documento
+Specifies the Ship-to Post Code. ~ Especifica el código postal de destino.
+Specifies the Ship-to Customer Code. ~ Especifica el código de envío al cliente.
+Specifies the Ship-to County. ~ Especifica la provincia de envío.
+Specifies the Ship-to Name. ~ Especifica el nombre del envío.
+Specifies the Ship-to City. ~ Especifica la ciudad del envío.
+Specifies the Sell-to Post Code. ~ Especifica el código de venta.
+Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
+Specifies the Document No. ~ Especifica el Nº de documento.
+Current Batch Name ~ Nombre sección
+Specifies the series code of the journal section. ~ Especifica el código de serie de la sección del diario.
+Specifies the code of the Journal section ~ Especifica el código de la sección Diario.
+Specifies the description of the journal section. ~ Especifica la descripción de la sección del diario.

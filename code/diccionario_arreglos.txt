@@ -6,7 +6,6 @@ Post ~ Registrar
 publicado ~ registrado
 publicar ~ registrar
 Mark ~ Marcar
-Después de la ~ Registrar
-Después de ~ Registrar
 la revista ~ el diario
 La cantidad a la factura ~ La cantidad a facturar
+barco ~ envío
