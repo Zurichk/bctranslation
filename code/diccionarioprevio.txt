@@ -1,4 +1,10 @@
-Ship, Invoice, Ship and invoice ~ Envíar, Facturar, Envíar y facturar
+The Bill No. cant be empty. Line No. %1 ~ El Nº efecto no puede estar vacio. Nº linea %1
+Do you want to post the journal? ~ ¿Quieres registrar el diario?
+Ship,Invoice,Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
+Get &amp;Shipment Lines ~ Traer líneas alb. venta
+Get Shipment Line ~ Obtener línea de albarán
+There are no lines in the journal to post ~ No hay líneas en el diario para registrar
+The document was not found in the Customer Ledger Entry ~ El documento de factura no se encontró en los movimientos de cliente
 GENERIC ~ GENERICO
 Do yo want to register the journal? ~ ¿Quieres registrar el diario?
 The Applies-to Bill No. cant be empty ~ El número de Efecto a liquidar no puede estar vacío
