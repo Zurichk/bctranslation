@@ -90,7 +90,8 @@ def generar_xml(xml_file):
                     if source_text.lower() == key.lower().strip(" "):
                         target = ET.Element('target')
                         if not any(value.startswith(symbol) for symbol in symbols_to_check):
-                            target.text = str(value).strip(" ").capitalize()
+                            target.text = str(value).strip(" ")
+                            # target.text = str(value).strip(" ").capitalize()
                         else:
                             target.text = str(value).strip(" ")
                         print(
@@ -119,7 +120,7 @@ def generar_xml(xml_file):
                             if not any(value.startswith(symbol) for symbol in symbols_to_check):
                                 # Cambiar la parte que coincide por la traducción y capitalizar
                                 target.text = target.text.lower().replace(
-                                    key.lower().strip(" "), value.strip(" ")).capitalize()
+                                    key.lower().strip(" "), value.strip(" "))
                             else:
                                 # Cambiar la parte que coincide por la traducción sin capitalizar
                                 target.text = target.text.lower().replace(
