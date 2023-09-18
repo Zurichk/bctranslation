@@ -77,7 +77,7 @@ def generar_xml(xml_file):
     contador1 = 0
     contador2 = 0
     contador3 = 0
-    symbols_to_check = ['¿', '¡', '!', '?', '.']
+    symbols_to_check = ['¿', '¡', '!', '?', '.', '&amp;']
 
     for trans_unit in root.findall('.//ns0:trans-unit', ns):
         source = trans_unit.find('ns0:source', ns)
@@ -212,9 +212,8 @@ def upload_file():
             return render_template('results.html', text1="\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
     return render_template('home.html')
 
+
 # Crear una ruta para descargar el fichero generado
-
-
 @app.route('/download/<path:filename>', methods=['GET', 'POST'])
 def download(filename):
     try:
