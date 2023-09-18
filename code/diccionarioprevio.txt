@@ -202,3 +202,7 @@ Current Batch Name ~ Nombre sección
 Specifies the series code of the journal section. ~ Especifica el código de serie de la sección del diario.
 Specifies the code of the Journal section ~ Especifica el código de la sección Diario.
 Specifies the description of the journal section. ~ Especifica la descripción de la sección del diario.
+Post Sales Order ~ Registrar Pedido de Venta
+Sales Order Post ~ Registrar Pedido de Venta
+Sales Credit Memo Post ~ Registrar Abono de Venta
+Sales Invoice Post ~ Registrar Factura de Venta
