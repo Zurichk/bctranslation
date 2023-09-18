@@ -182,7 +182,7 @@ Sell-to County ~ Venta a-Provincia
 Sell-to Country/Region Code ~ Venta a-Cód. país/región
 Payment Method Code ~ Cód. forma pago
 Shipping Agent Code ~ Cód. transportista
-No. Series ~ Nos. serie
+No. Series ~ Nº serie
 Posting No. Series ~ Nº serie registro
 Shipment No. Series ~ Nº serie alb. venta
 The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Linea %1
