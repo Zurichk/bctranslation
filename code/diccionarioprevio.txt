@@ -1,3 +1,5 @@
+Show Ledger Entry Pending ~ Mostrar movs. pendientes
+Action to show pending ledger entry ~ Acción para mostrar movimientos pendientes
 Post ~ Registrar
 The Bill No. cant be empty. Line No. %1 ~ El Nº efecto no puede estar vacio. Nº linea %1
 Do you want to post the journal? ~ ¿Quieres registrar el diario?

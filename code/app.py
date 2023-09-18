@@ -113,14 +113,14 @@ def generar_xml(xml_file):
                     # si dentro de alguna palabras de las frases de target.text esta dentro de translation_dict_Individual cambiar
                     # por la traduccion de translation_dict_Individual
                     for key, value in translation_dict_Individual.items():
-                        print("[" + target.text.lower() + "] [" +
-                              key.lower().strip(" ") + "]")
+                        # print("[" + target.text.lower() + "] [" +
+                        #       key.lower().strip(" ") + "]")
                         if key.lower().strip(" ") in target.text.lower():
                             # Verificar si no empieza con un símbolo antes de capitalizar
                             if not any(value.startswith(symbol) for symbol in symbols_to_check):
                                 # Cambiar la parte que coincide por la traducción y capitalizar
                                 target.text = target.text.lower().replace(
-                                    key.lower().strip(" "), value.strip(" "))
+                                    key.lower().strip(" "), value.strip(" ")).capitalize()
                             else:
                                 # Cambiar la parte que coincide por la traducción sin capitalizar
                                 target.text = target.text.lower().replace(
