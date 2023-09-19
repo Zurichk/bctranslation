@@ -1,4 +1,5 @@
-Show Ledger Entry Pending ~ Mostrar movs. pendientes
+Convert invoice %1 to bill ~ Convertir factura %1 en efectos
+Show Ledger Entry Pending ~ Mostrar Movs. pendientes
 Action to show pending ledger entry ~ Acción para mostrar movimientos pendientes
 Post ~ Registrar
 The Bill No. cant be empty. Line No. %1 ~ El Nº efecto no puede estar vacio. Nº linea %1
