@@ -209,3 +209,7 @@ Post Sales Order ~ Registrar Pedido de Venta
 Sales Order Post ~ Registrar Pedido de Venta
 Sales Credit Memo Post ~ Registrar Abono de Venta
 Sales Invoice Post ~ Registrar Factura de Venta
+Specifies the commission amount for the salesperson. ~ Especifica la cantidad de la comisión para el vendedor.
+Commission Amount ~ Cantidad de comisión
+Show Value Entry ~ Mostrar movs. Valor
+Open the Value Entry page ~ Abrir la página de movimientos de valor
