@@ -9,3 +9,5 @@ Mark ~ Marcar
 la revista ~ el diario
 La cantidad a la factura ~ La cantidad a facturar
 barco ~ envío
+mondo ~ Importe
+monto ~ Importe

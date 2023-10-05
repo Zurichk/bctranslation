@@ -213,3 +213,11 @@ Specifies the commission amount for the salesperson. ~ Especifica la cantidad de
 Commission Amount ~ Cantidad de comisión
 Show Value Entry ~ Mostrar movs. Valor
 Open the Value Entry page ~ Abrir la página de movimientos de valor
+Commission Amount ~ Cantidad de comisión
+Specifies the commission percentage for the salesperson. ~ Especifica el porcentaje de comisión para el vendedor.
+Specifies the commission amount for the salesperson. ~ Especifica la cantidad de la comisión para el vendedor.
+Commission Amount ~ Importe comisión
+Total Sales Amount ~ Importe total ventas
+Total Commission Amount ~ Importe Total Comisión
+The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
+Commission Report ~ Informe Comisiones
