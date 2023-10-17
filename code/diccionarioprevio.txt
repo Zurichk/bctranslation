@@ -221,3 +221,5 @@ Total Sales Amount ~ Importe total ventas
 Total Commission Amount ~ Importe Total Comisión
 The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
 Commission Report ~ Informe Comisiones
+Commission Report V2 ~ Informe Comisiones V2
+Commission Amount ~ Importe Comisión
