@@ -162,3 +162,4 @@ SHIPMENT ~ ALBARÁN
 Provision of shipment %1 from the vendor %2 ~ Provisión de albarán %1 del proveedor %2
 Provision Account ~ Cuenta de provisión
 Shipment ~ Albarán
+Invoice vendor ~ Proveedor de factura
