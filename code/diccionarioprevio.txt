@@ -69,8 +69,6 @@ Country/Region Code ~ Cód. país/región
 Payment Method Code ~ Cód. forma pago
 Balance (DL) ~ Saldo (DL)
 VAT Registration No. ~ CIF/NIF
-Shipping Agent Code ~ Cód. transportista
-Country/Region Code ~ Cód. país/región
 County ~ Provincia
 Entry No. ~ Nº mov.
 Customer No. ~ Nº cliente
@@ -92,9 +90,7 @@ Ship-to City ~ Envío a-Población
 Ship-to Post Code ~ Envío a-C.P.
 Ship-to County ~ Envío a-Provincia
 Order Date ~ Fecha pedido
-Posting Date ~ Fecha registro
 Shipment Date ~ Fecha envío
-Shipment ~ Envío
 Invoice ~ Factura
 Next Shipment No. ~ Nº sig. albarán venta
 Next Invoice No. ~ Nº sig. factura
@@ -104,15 +100,11 @@ Sell-to City ~ Venta a-Población
 Sell-to Post Code ~ Venta a-C.P.
 Sell-to County ~ Venta a-Provincia
 Sell-to Country/Region Code ~ Venta a-Cód. país/región
-Payment Method Code ~ Cód. forma pago
-Shipping Agent Code ~ Cód. transportista
 Posting No. Series ~ Nº serie registro
 Shipment No. Series ~ Nº serie alb. venta
 Line No. ~ Nº línea
-Sell-to Customer No. ~ Venta a-Nº cliente
 No. ~ Nº
 Location Code ~ Cód. almacén
-Description ~ Descripción
 Quantity ~ Cantidad
 Outstanding Quantity ~ Cantidad pendiente
 Quantity to Invoice ~ Cdad. a facturar
@@ -125,74 +117,21 @@ Amount ~ Importe
 Shipment No. ~ Nº albarán
 Shipment Line No. ~ Nº línea albarán
 Code ~ Código
-Description ~ Descripción
 Series Code ~ No. Serie
 Journal Batch Name ~ Nombre Sección
-Line No. ~ Nº línea
-Posting Date ~ Fecha registro
 Document No. ~ No. Documento
 Bill No. ~ No. Efecto
 Applies-to Doc. Type ~ Liq. por tipo documento
 Applies-to Doc. No. ~ Liq. por No. documento
 Applies-to Bill No. ~ Liq. por No. Efecto
-Sell-to Customer No. ~ Venta a-Nº cliente
-Your Reference ~ Su/Ntra. ref.
-Ship-to Customer Code ~ Cód. dirección envío cliente
-Ship-to Name ~ Envío a-Nombre
-Ship-to Address ~ Envío a-Dirección
-Ship-to City ~ Envío a-Población
-Ship-to Post Code ~ Envío a-C.P.
-Ship-to County ~ Envío a-Provincia
-Order Date ~ Fecha pedido
-Posting Date ~ Fecha registro
-Shipment Date ~ Fecha envío
-Sell-to Name ~ Venta a-Nombre
-Sell-to Address ~ Venta a-Dirección
-Sell-to City ~ Venta a-Población
-Sell-to Post Code ~ Venta a-C.P.
-Sell-to County ~ Venta a-Provincia
-Sell-to Country/Region Code ~ Venta a-Cód. país/región
-Payment Method Code ~ Cód. forma pago
-Shipping Agent Code ~ Cód. transportista
-Posting No. Series ~ Nº serie registro
-Shipment No. Series ~ Nº serie alb. venta
-Line No. ~ Nº línea
-Sell-to Customer No. ~ Venta a-Nº cliente
+Shipment No. Series ~ Nº serie albarán
 Type ~ Tipo
-Location Code ~ Cód. almacén
-Description ~ Descripción
-Quantity ~ Cantidad
-Outstanding Quantity ~ Cantidad pendiente
-Unit Price ~ Precio venta
-Invoiced Quantity ~ Cantidad facturada
-Sell-to Customer No. ~ Venta a-Nº cliente
-Your Reference ~ Su/Ntra. ref.
-Ship-to Customer Code ~ Cód. dirección envío cliente
-Ship-to Name ~ Envío a-Nombre
-Ship-to Address ~ Envío a-Dirección
-Ship-to City ~ Envío a-Población
-Ship-to Post Code ~ Envío a-C.P.
-Ship-to County ~ Envío a-Provincia
-Order Date ~ Fecha pedido
-Posting Date ~ Fecha registro
-Shipment Date ~ Fecha envío
 Due Date ~ Fecha vencimiento
-Sell-to Name ~ Venta a-Nombre
-Sell-to Address ~ Venta a-Dirección
-Sell-to City ~ Venta a-Población
-Sell-to Post Code ~ Venta a-C.P.
-Sell-to County ~ Venta a-Provincia
-Sell-to Country/Region Code ~ Venta a-Cód. país/región
-Payment Method Code ~ Cód. forma pago
-Shipping Agent Code ~ Cód. transportista
 No. Series ~ Nº serie
-Posting No. Series ~ Nº serie registro
-Shipment No. Series ~ Nº serie alb. venta
 The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Linea %1
 The Applies-to Bill No. cant be empty. Line No. %1 ~ La Liq. por No. Efecto. no puedo esta vacia. Nº Linea %1
 Specifies the bill number ~ Especifica el número de efecto.
 Specifies the Applies-to Bill No. ~ Especifica la Liq. por No. Efecto.
-Applies-to Doc. Type ~ Liq. por tipo documento
 Specifies the Ship-to Post Code. ~ Especifica el código postal de destino.
 Specifies the Ship-to Customer Code. ~ Especifica el código de envío al cliente.
 Specifies the Ship-to County. ~ Especifica la provincia de envío.
@@ -213,10 +152,13 @@ Specifies the commission amount for the salesperson. ~ Especifica la cantidad de
 Show Value Entry ~ Mostrar movs. Valor
 Open the Value Entry page ~ Abrir la página de movimientos de valor
 Specifies the commission percentage for the salesperson. ~ Especifica el porcentaje de comisión para el vendedor.
-Specifies the commission amount for the salesperson. ~ Especifica la cantidad de la comisión para el vendedor.
 Total Sales Amount ~ Importe total ventas
 Total Commission Amount ~ Importe Total Comisión
 The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
 Commission Report ~ Informe Comisiones
 Commission Report V2 ~ Informe Comisiones V2
 Commission Amount ~ Importe Comisión
+SHIPMENT ~ ALBARÁN
+Provision of shipment %1 from the vendor %2 ~ Provisión de albarán %1 del proveedor %2
+Provision Account ~ Cuenta de provisión
+Shipment ~ Albarán
