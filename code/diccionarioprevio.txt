@@ -158,8 +158,9 @@ The new commision report has been created successfully. ~ El Informe de comision
 Commission Report ~ Informe Comisiones
 Commission Report V2 ~ Informe Comisiones V2
 Commission Amount ~ Importe Comisión
-SHIPMENT ~ ALBARÁN
 Provision of shipment %1 from the vendor %2 ~ Provisión de albarán %1 del proveedor %2
 Provision Account ~ Cuenta de provisión
 Shipment ~ Albarán
 Invoice vendor ~ Proveedor de factura
+Invoice - Shipment %1 ~ Factura - Albarán %1
+The provisions account was not found in the supplier group ~ La cuenta de provisiones no se encontró en el grupo de proveedores
