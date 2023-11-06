@@ -213,8 +213,9 @@ def upload_file():
             return render_template('results.html', text1="\n" + NO_VALID_XML + "\n" + str(e) + "\nRuta:" + str(UPLOAD_FOLDER))
     return render_template('home.html')
 
-
 # Crear una ruta para descargar el fichero generado
+
+
 @app.route('/download/<path:filename>', methods=['GET', 'POST'])
 def download(filename):
     try:
