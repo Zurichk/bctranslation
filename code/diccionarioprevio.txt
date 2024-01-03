@@ -69,11 +69,11 @@ PriceBand  min Quantity ~ PriceBand Min Cantidad
 Price currency ~ Moneda de precio
 Price total buy ~ Precio total compra
 Price total sell ~ Precio Total Venta
-Price unit buy ~ Precio de compra de unidad
-Price unit sell ~ Precio de venta de unidad
+Price unit buy ~ Precio de compra unitario
+Price unit sell ~ Precio de venta unitario
 Program ~ Programa
 Seats ~ Asientos
-Service Ref ~ Servicio de Ref
+Service Ref ~ Ref Servicio
 Sku ~ Sku
 Status Code ~ Cód. estado
 Term ~ Término
@@ -136,7 +136,6 @@ Vendor ~ Proveedor
 ApiKeyAS ~ Apikeyas
 EndpointAS ~ Punto final
 EndpointPRE ~ Punto final
-Primary Key ~ Clave principal
 Cod. país/región ~ Cod. país/región
 Codigo Postal ~ Codigo registraral
 Codigo Centro ~ Codigo Centro
@@ -417,7 +416,7 @@ Products ArrowSphere List ~ Productos Lista de Arrowsphere
 Get Products from ArrowSphere ~ Obtener productos de Arrowsphere
 Get Products ~ Obtener productos
 Setup External API Card ~ Configurar ficha api externa
-Setup API ArrowSphere ~ Configuración de API Arrowsphere
+Setup API ArrowSphere ~ Configuración de API ArrowsphereSpecifies the No.
 The ApiKey ArrowSphere ~ La APIKEY Arrowsphere
 ApiKey ~ Clave API
 The Endpoint ArrowSphere. ~ La Arrowsphere de punto final.
@@ -429,9 +428,7 @@ Specifies the Buy-from Vendor No. ~ Especifica el número de proveedor de compra
 Specifies the Description. ~ Especifica la descripción.
 Specifies the Document No. ~ Especifica el Nº de documento.
 Document No. ~ Nº documento
-Specifies the Line No. ~ Especifica la línea No.
 Line No. ~ Nº línea
-Specifies the No. ~ Especifica el No.
 Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
 Outstanding Quantity ~ Cantidad pendiente
 Specifies the Qty. Invoiced. ~ Especifica la Cantidad.Facturado.
@@ -639,20 +636,12 @@ Extranjero ~ Extranjero
 Resident en UE ~ Residente en ue
 BillingId ~ ID facturación
 The "data" field was not found in the Json ~ El campo de "datos" no se encontró en el JSON
-Price unit buy ~ Unidad de precio comprar
-Price unit sell ~ Venta de la unidad de precio
-Service Ref ~ Servicio de servicio
-Cod. país/región ~ Bacalao.país/región
-Codigo Centro ~ Centro de Codigo
-Población ~ Pobreza
-Dim Partidas ~ Partidas dim
 Commission Report ~ Informe Comisiones
 The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
 Period: %1 ~ Periodo: %1
 Total ~ Total
 Commission Amount ~ Importe Comisión
 Commission % ~ % Comisión
-Page ~ Pág.
 Posting Date ~ Fecha registro
 Sales Amount ~ Importe ventas
 Salesperson - Commission ~ Vendedor - Comisión
@@ -695,7 +684,6 @@ Code ~ Código
 Item Journal Batch ~ Sección Diario producto
 Cannot delete record, at least one record must exist ~ No se puede eliminar el registro, debe existir al menos un registro
 Are you sure you want to delete the record? ~ ¿Está seguro de que desea eliminar el registro?
-Order No. ~ Nº Orden
 Serial No. ~ Nº serie
 Item Journal Line ~ Línea Diario Producto
 Item Journal Line | WorkDate: ~ Diario de Producto | Fecha de trabajo:
@@ -708,7 +696,6 @@ Section Code ~ Código de sección
 Unit Cost Price ~ Precio coste Unidad
 Specifies the section code. ~ Especifica el código de sección.
 Specifies the current batch name. ~ Especifica el nombre de la sección actual.
- Current Batch Name ~ Nombre Sección
 Register the Item Journal Post. ~ Registrar los movimientos de Producto.
 Register ~ Registrar
 Do you want to register the journal? ~ ¿Desea registrar el diario?
@@ -722,7 +709,6 @@ The description of the item subfamily. ~ La descripción de la subfamilia de pro
 The code of the family to which the item subfamily belongs. ~ El código de la familia a la que pertenece la subfamilia de producto.
 Production Order Header ~ Orden de producción
 Item No. ~ Nº producto
-Order Date ~ Fecha orden
 Status ~ Estado
 Unit of Measure Code ~ Código unidad medida
 Production Order Line ~ Línea orden producción
@@ -752,7 +738,6 @@ Specifies the description of the item ledger entry. ~ Especifica la descripción
 Specifies the number of the document that the entry originated from. ~ Especifica el número del documento del que procede el asiento.
 Specifies the type of document that the entry originated from. ~ Especifica el tipo de documento del que procede el asiento.
 Specifies the number of the entry. ~ Especifica el número del asiento.
-Entry No. ~ Nº de asiento
 Specifies the number of the item ledger entry. ~ Especifica el número del movimiento de productos.
 Specifies the code of the location that the item ledger entry is related to. ~ Especifica el código de la ubicación a la que se refiere el movimiento de productos.
 Specifies the date when the entry was posted. ~ Especifica la fecha en la que se realizó el asiento.
@@ -793,7 +778,7 @@ Subform Lin ~ Líneas
 Register the production order. ~ Registrar la orden de producción.
 Write Comment ~ Escribe un comentario
 Specifies the Line No. ~ Especifica el número de línea.
-Specifies the No. ~ Especifica el número.
+Specifies the No. ~ Especifica el Nº.
 Specifies the Order No. ~ Especifica el número de orden.
 Specifies the Unit of Measure Code. ~ Especifica el código de unidad de medida.
 The product serial no. ~ El Nº serie del producto.
@@ -839,9 +824,7 @@ Invoice Account ~ Cuenta de factura
 Cust. Ledger Entry ~ Mov. Cliente
 Amount ~ Importe
 Applies-to ID ~ ID Liquidación
-Bill No. ~ Nº Efecto
 Customer No. ~ Nº cliente
-Document Type ~ Tipo documento
 Due Date ~ Fecha vencimiento
 Entry No. ~ Nº mov.
 Is Positive ~ Positivo
@@ -894,7 +877,6 @@ Shipment Date ~ Fecha envío
 Shipment No. Series ~ Nº serie alb. venta
 Your Reference ~ Su/Ntra. ref.
 Sales Cr. Memo Line ~ Subform Lín. Hist. Lín. Abono Venta
-Location Code ~ Cód. almacén
 Unit Price ~ Precio venta
 Sales Header ~ Cab. Venta
 The inventory does not have #1 requested units. There are only %2 units in the %3 location. ~ El inventario no tiene unidades solicitadas #1.Solo hay %2 unidades en la ubicación %3.
@@ -947,7 +929,6 @@ Convert invoice %1 to bill ~ Convertir factura %1 en efectos
 Order ~ Pedido
 Credit Memo ~ Abono
 Ship,Invoice,Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
-Choose one of the following options: ~ Elija una de las opciones siguientes:
 There are closed entries for this user ~ Hay entradas cerradas para este usuario
 You must select 2 records with the same customer to Post the liquidation ~ Debe seleccionar 2 registros con el mismo cliente para registrar la liquidación
 You must select 1 positive and 1 negative record to Post the liquidation ~ Debe seleccionar 1 registro positivo y 1 negativo para registrar la liquidación
@@ -1012,14 +993,13 @@ Specifies the applies-to document number. ~ Especifica el número de documento a
 Specifies the applies-to document type. ~ Especifica el tipo de documento aplicado.
 Specifies the journal batch name. ~ Especifica el nombre por lotes del diario.
 Specifies the line number ~ Especifica el número de línea
-Specifies the current batch name. ~ Especifica el nombre de lote actual.
 Current Batch Name ~ Nombre sección
 Post the journal lines ~ Registrar las líneas de diario
 Post ~ Registrar
 There are no lines in the journal to post ~ No hay líneas en el diario para registrar
 Get Shipment Line ~ Obtener línea de albarán
 Specifies the Invoiced Quantity. ~ Especifica la cantidad facturada.
-Specifies the Location Code. ~ Especifica el código de ubicación.
+Specifies the Location Code. ~ Especifica el código de almacén.
 Specifies the Sell-to Customer No. ~ Especifica el número de ventas al cliente
 Specifies the Unit Price. ~ Especifica el precio unitario.
 Sale Price ~ Precio de venta
@@ -1190,8 +1170,6 @@ The general business posting group. ~ El grupo contable general de negocio
 The student posting group. ~ El grupo contable de alumno
 RFF Registration Detail ~ Detalle de matrícula RFF
 Specifies the Credits. ~ Especifica los créditos
-Specifies the Description. ~ Especifica la descripción
-Specifies the Line No. ~ Especifica el número de línea
 Specifies the Registration No. ~ Especifica el número de matrícula
 Specifies the Subject No. ~ Especifica el número de asignatura
 Role Center Student ~ Centro de roles de alumno
@@ -1209,7 +1187,6 @@ Open the Posted Sales Invoices page, where you can view and manage posted sales 
 Posted Sales Invoices ~ Historico de Facturas de venta
 Open the Registration List page, where you can view and manage registrations. ~ Abrir la página de lista de matrículas, donde puede ver y administrar matrículas.
 Open the Sales Invoice page, where you can view and manage sales invoices. ~ Abrir la página de factura de ventas, donde puede ver y administrar facturas de ventas.
-Sales Invoice List ~ Lista de facturas de ventas
 Open the Student List page, where you can view and manage students. ~ Abrir la página de lista de alumnos, donde puede ver y administrar alumnos.
 Student List ~ Lista de Alumnos
 Open the Student Movement List page, where you can view and manage student movements. ~ Abrir la página de lista de movimientos de alumnos, donde puede ver y administrar movimientos de alumnos.
@@ -1241,7 +1218,6 @@ The existing picture will be replaced. Do you want to continue? ~ La foto existe
 Specifies the picture of the student, for example, a logo. ~ Especifica la foto del alumno, por ejemplo, un logo.
 Delete the record. ~ Eliminar el registro.
 Delete ~ Eliminar
-Export the picture to a file. ~ Exportar la foto a un archivo.
 Export ~ Exportar
 Import a picture file. ~ Importar un archivo de foto.
 Import ~ Importar
@@ -1281,10 +1257,7 @@ Image URL ~ URL de la imagen
 Specify the Price ~ Especificar el precio
 Specify the Image ~ Especificar la imagen
 Mesa Picture ~ Imagen de mesa
-%1 image files were exported ~ Se exportaron %1 de archivos de imagen
-Export Image ~ Imagen de exportación
 Specifies the Id of the item. ~ Especifica la id del producto.
-Specifies the picture of the student, for example, a logo. ~ Especifica la imagen del estudiante, por ejemplo, un logotipo.
 Export the picture to a file. ~ Exporta la imagen a un archivo.
 Import a picture file from URL ~ Importar un archivo de imagen de URL
 Import From URL ~ Importar de URL
@@ -1305,8 +1278,7 @@ Gen. Jnl. Line ~ Lín. Diario General
 Sales Shipment Line ~ Lín. Albarán
 Sales Invoice Line ~ Lín. Factura Venta
 Sales Cr. Memo Line ~ Lín. Abono Venta
-Document No. ~ No. Documento
-Bill No. ~ No. Efecto
+Bill No. ~ Nº Efecto
 Shipment No. Series ~ Nº serie albarán
 The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Linea %1
 Specifies the bill number ~ Especifica el número de efecto.
