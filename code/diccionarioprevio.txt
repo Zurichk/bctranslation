@@ -44,7 +44,6 @@ Zip ~ Codigo Postal
 DropDown ~ Desplegable
 Licenses ArrowSphere ~ Licencias de Arrowsphere
 The "licenses" field was not found in the Json ~ El campo "Licencias" no se encontró en el JSON
-The "data" field was not found in the Json ~ El campo de "data" no se encontró en el JSON
 Activation datetime ~ Activación DateTime
 Active Seats Last Update ~ Asientos activos Última actualización
 Active Seats Number ~ Número de asientos activos
@@ -210,10 +209,9 @@ Error when making HTTP request ~ Error al realizar la solicitud HTTP
 The client already exists in ArrowSphere ~ El cliente ya existe en ArrowSphere
 Error sending request ~ Solicitud de envío de errores
 The client has been created in ArrowSphere ~ El cliente ha sido creado en ArrowSphere
-Error sending request  ~ Solicitud de envío de errores
-Result:  ~ Resultado:
-Prediction:  ~ Predicción:
-Probability:  ~ Probabilidad:
+Result: ~ Resultado:
+Prediction: ~ Predicción:
+Probability: ~ Probabilidad:
 Specifies the date of the customer. ~ Especifica la fecha del cliente.
 Date ~ Fecha
 Specifies the Auto Renew. ~ Especifica la renovación automática.
@@ -298,7 +296,6 @@ Specifies the ibm customer number of the contact. ~ Especifica el número de cli
 Specifies the ibm maas account id of the contact. ~ Especifica la ID de cuenta IBM MAAS del contacto.
 InternalReference ~ Referencia interna
 Specifies the maas360 reseller id of the contact. ~ Especifica la ID de revendedor MAAS360 del contacto.
-Specifies the mscsp of the contact. ~ Especifica el MSCSP del contacto.
 OrganizationUnit ~ Unidad de organización
 Specifies the organization unit ref of the contact. ~ Especifica la unidad de organización REF del contacto.
 Specifies the ref of the company. ~ Especifica la referencia de la empresa.
@@ -306,7 +303,6 @@ Specifies the sync partner contact ref id of the contact. ~ Especifica la refere
 SyncPartnerContactRefId ~ SyncPartnerContAffid
 Specifies the tenant id of the contact. ~ Especifica la identificación del Tenant del contacto.
 Specifies the tenant id programs of the contact. ~ Especifica los programas de identificación del Tenant del contacto.
-Specifies the website url of the company. ~ Especifica la URL del sitio web de la empresa.
 Get Customer from ArrowSphere ~ Obtener cliente de ArrowSphere
 Get Customer ~ Obtener cliente
 Licenses ArrowSphere Card ~ Licencias de licencia Arrowsphere Card
@@ -317,7 +313,6 @@ Last Update of Active Seats ~ Última actualización de asientos activos
 Specifies the number of active license seats ~ Especifica el número de asientos de licencia activa
 Active Seats ~ Asientos activos
 Specifies the Arrow subcategories of the license ~ Especifica las subcategorías de Arrow de la licencia
-Arrow Subcategories ~ Subcategorías de Arrow
 Specifies the associated subscription program of the license ~ Especifica el programa de suscripción asociado de la licencia
 Specifies if the license auto renews ~ Especifica si la licencia se renueva automáticamente
 Specifies the category of the license ~ Especifica la categoría de la licencia
@@ -328,14 +323,10 @@ Specifies the license name ~ Especifica el nombre de la licencia
 Specifies if the license is an addon ~ Especifica si la licencia es un complemento
 Specifies if the license is a trial ~ Especifica si la licencia es una prueba
 Specifies the license ID ~ Especifica la ID de licencia
-License ID ~ ID de licencia
 Specifies the license message ~ Especifica el mensaje de la licencia
 Specifies the order link of the license ~ Especifica el enlace de pedido de la licencia
-Order Link ~ Enlace de pedido
 Specifies the order reference of the license ~ Especifica la referencia de orden de la licencia
-Order Reference ~ Pedir Referencia
 Specifies the parent license ID ~ Especifica la ID de licencia de los padres
-Parent License ID ~ ID de licencia de padres
 Specifies the periodicity of the license ~ Especifica la periodicidad de la licencia
 Specifies the periodicity code of the license ~ Especifica el código de periodicidad de la licencia
 Specifies the maximum sale quantity of the license ~ Especifica la cantidad de venta máxima de la licencia
@@ -356,7 +347,6 @@ Specifies the number of license seats ~ Especifica el número de asientos de lic
 Specifies the service ID ~ Especifica la identificación del servicio
 Service ID ~ Id. de servicio
 Specifies the license SKU ~ Especifica la licencia Sku
-SKU ~ Sku
 Specifies the license state ~ Especifica el estado de la licencia
 Specifies the license status code ~ Especifica el código de estado de la licencia
 Specifies the term of the license ~ Especifica el término de la licencia
@@ -364,9 +354,7 @@ Specifies the term code of the license ~ Especifica el término código de la li
 Specifies the vendor billing ID of the license ~ Especifica la identificación de facturación del proveedor de la licencia
 Vendor Billing ID ~ ID de facturación de proveedores
 Specifies the vendor code of the license ~ Especifica el código del proveedor de la licencia
-Vendor Code ~ Código de proveedor
 Specifies the vendor license ID of the license ~ Especifica la ID de licencia de la licencia del proveedor de la licencia
-Vendor License ID ~ ID de licencia de proveedor
 Licenses ArrowSphere List ~ Lista de licencias de Arrowsphere
 Get Licenses ArrowSphere ~ Obtener licencias Arrowsphere
 Get Licenses ~ Obtener licencias
@@ -634,8 +622,6 @@ comprador ~ comprador
 Fiscal ~ Fiscal
 Pagador ~ Pagador
 Receptor ~ Receptor
-Oficina Contable ~ Oficina Contable
-Organo Gestor ~ Organo gestor
 directo ~ directorio
 indirecto ~ indirecto
 En Intalaciones ~ En instalaciones
@@ -651,346 +637,15 @@ Alquiler ~ Alquiler
 Mantenimiento ~ Mantenimiento
 Extranjero ~ Extranjero
 Resident en UE ~ Residente en ue
-The "customers" field was not found in the JSON ~ El campo de los "customers" no se encontró en el JSON
-The "data" field was not found in the JSON ~ El campo de "data" no se encontró en el JSON
-AddressLine1 ~ Dirección
-AddressLine2 ~ Dirección Linea 2
 BillingId ~ ID facturación
-Contact ~ Contacto
-CountryCode ~ Código de país
-DeletedAt ~ Deletedat
-Domain Name ~ Nombre de dominio
-domain ~ Dominio
-DomainName ~ Nombre de dominio
-Email ~ Correo electrónico
-EmailContact ~ Correo electrónico
-Extra Information ~ Información extra
-FirstName ~ Nombre
-Headcount ~ Personal
-IBMCeId ~ Ibmceid
-IbmCustomerNumber ~ Ibmcustomernumber
-IbmMaasAccountId ~ Ibmmaasaccountid
-InternalReference ~ Referencia interna
-LastName ~ Apellido
-Maas360ResellerId ~ Maas360resellerid
-Migration ~ Migración
-MSCSP ~ MSCSP
-Oracle Online Key ~ Clave de Oracle Online
-Organization Name ~ Nombre de la Organización
-OrganizationUnit ~ Unidad de organización
-Organization Unit Ref ~ Unidad de organización Ref.
-Partner Company Id ~ ID de la empresa asociada
-Phone ~ Teléfono
-Programs ~ Programas
-ReceptionPhone ~ Teléfono de recepción
-Reference ~ Referencia
-State ~ Estado
-SyncPartnerContactRefId ~ SyncPartnerContAffid
-TaxNumber ~ CIF
-Tenant Id Programs ~ Programas de identificación del Tenant
-WebsiteUrl ~ URL del sitio web
-Zip ~ Codigo Postal
-DropDown ~ Desplegable
-Licenses ArrowSphere ~ Licencias de Arrowsphere
-The "licenses" field was not found in the Json ~ El campo "Licencias" no se encontró en el JSON
 The "data" field was not found in the Json ~ El campo de "datos" no se encontró en el JSON
-Activation datetime ~ Activación DateTime
-Active Seats Last Update ~ Asientos activos Última actualización
-Active Seats Number ~ Número de asientos activos
-Arrow SubCategories ~ Subcategorías de Arrow
-Associated Subscription Program ~ Programa de suscripción asociado
-AutoRenew ~ Auto renovación
-Category ~ Clase
-Customer Ref ~ Referencia de clientes
-Expiry datetime ~ Caducidad de expiración
-Friendly Name ~ Nombre descriptivo
-Is Addon ~ Es complemento
-Is Trial ~ Es Trial
-License Id ~ ID de licencia
-Message ~ Mensaje
-Name ~ Nombre
-Order link ~ Enlace de pedido
-Order reference ~ Pedir Referencia
-Parent license id ~ ID de licencia de padres
-Periodicity ~ Periodicidad
-Periodicity Code ~ Código de periodicidad
-PriceBand max Quantity ~ PriceBand Max Cantidad
-PriceBand  min Quantity ~ PriceBand Min Cantidad
-Price currency ~ Moneda de precio
-Price total buy ~ Precio total compra
-Price total sell ~ Precio Total Venta
 Price unit buy ~ Unidad de precio comprar
 Price unit sell ~ Venta de la unidad de precio
-Program ~ Programa
-Seats ~ Asientos
 Service Ref ~ Servicio de servicio
-Sku ~ Sku
-Status Code ~ Cód. estado
-Term ~ Término
-Term Code ~ Código de término
-Vendor Billin Id ~ Vendor Billin ID
-Vendor code ~ Código de proveedor
-Vendor license id ~ ID de licencia de proveedor
-Access to Public Transportation ~ Acceso al transporte público
-Area ~ Área
-Crime rate ~ Tasa de criminalidad
-No. ~ Nº
-Price ~ Precio
-Proximity to Services ~ Proximidad a los servicios
-Residential area ~ Barrio residencial
-Shopping area ~ Area de Compras
-Touristic interest ~ Interés turístico
-ApiKeyAS ~ Apikeyas
-EndpointAS ~ Punto final
-EndpointPRE ~ Punto final
-Primary Key ~ Clave principal
 Cod. país/región ~ Bacalao.país/región
-Codigo Postal ~ Codigo registraral
 Codigo Centro ~ Centro de Codigo
-Descripción centro ~ Descripción Centro
-Dirección ~ Dirección
-GLN Fisico ~ Gln fisico
 Población ~ Pobreza
-Provincia ~ Provincia
-Punto lógico operacional ~ Punto Lógico operacional
-Tipo codigo ~ TUPO CODIGO
-Tipo Rol ~ Tipo rol
-% Dto aplicado ~ % Dto aplicado
-% Renovación ~ % De renovación
-Cantidad ~ Cantidad
-Dado de Baja ~ Dado de Baja
-Descripción ~ Descripción
 Dim Partidas ~ Partidas dim
-Fabricante Licencias ~ Licencias Fabricante
-Fecha ~ Fecha
-Fecha Baja ~ Fecha baja
-Fecha de Facturación ~ Fecha de fábrica
-Fecha mercado de baja ~ Fecha mercado de baja
-Renovación Fecha ~ Fecha de renovación
-Fecha revisado ~ Fecha revisado
-Importe coste compra ~ Importe coste compra
-Importe Neto ~ Importación neto
-Importe PVP ~ PvP de importación
-Impote renovación ~ Imponerse a la renovación
-Linea ~ Linea
-Linea Negocio ~ Linea Negocio
-Mto Microsoft ~ MTO Microsoft
-Nombre Cliente ~ Nombre Cliente
-Nº Cliente ~ Nº Cliente
-Nº de Fact venta Registrado ~ Nº de hecho de Venta Registro
-Nº Dvproyect ~ Nº dvproyect
-Nº Estudio ~ Nº estudio
-Nº Pedidos compra Registrado ~ Nº Pedidos Compra Registro
-Nº Producció ~ Nº producció
-Observaciones Interiores de Davisa ~ Observaciones Interiores de Davisa
-Partida ~ Parte
-Precio coste compra ~ Precio coste
-Precio PVP ~ PVP de precio
-Revisado Manualmente ~ Manual de revisado
-Tipo Licencia ~ Licencia TUPO
-Tipo pago ~ Tipo pago
-Tipo precio PVP ~ Pvp de precio tipo
-Tipo Renovación ~ Renovación tipo
-Último capitulo creado ~ Último Capitulo Creado
-Último Nº pedidos compra ~ ÚLTIMO Nº PEDIDOS COMPRA
-Unidad Medida ~ UNIDAD MEDIDA
-Usuario marca Baja ~ USUARIO MARCA BAJA
-Usuario revisa ~ Usuario revisa
-Detallar casos en reporte ~ DETALLAR CASOS EN Reporte
-Hay casos abiertos ~ Heno casos abios
-Nº Casos asociados ~ Nº casos asociados
-Nº Proyecto ~ Nº proyecto
-Observaciones ~ Observaciones
-Situación Partida ~ Situación Partida
-The client does not have a contact ~ El cliente no tiene contacto
-The client does not have a name ~ El cliente no tiene nombre
-The client does not have a reference ~ El cliente no tiene referencia
-The client does not have a phone number ~ El cliente no tiene un número de teléfono
-The client does not have an email ~ El cliente no tiene un correo electrónico
-The client does not have an address ~ El cliente no tiene una dirección
-The client does not have a city ~ El cliente no tiene ciudad
-The client does not have a country ~ El cliente no tiene un país
-The client does not have a postal code ~ El cliente no tiene un código postal
-The client does not have a county ~ El cliente no tiene provincia
-Error when making HTTP request ~ Error al realizar la solicitud HTTP
-The client already exists in ArrowSphere ~ El cliente ya existe en ArrowSphere
-Error sending request ~ Solicitud de envío de errores
-The client has been created in ArrowSphere ~ El cliente ha sido creado en ArrowSphere
-Error sending request  ~ Solicitud de envío de errores
-Result:  ~ Resultado:
-Prediction:  ~ Predicción:
-Probability:  ~ Probabilidad:
-Customers ArrowSphere Card ~ Ficha de ArrowSphere de clientes
-Specifies the first line of the address. ~ Especifica la primera línea de la dirección.
-Specifies the second line of the address. ~ Especifica la segunda línea de la dirección.
-Specifies the billing identifier of the company. ~ Especifica el identificador de facturación de la empresa.
-Billing Id ~ ID de facturación
-Specifies the city of the address. ~ Especifica la ciudad de la dirección.
-Specifies the name of the company. ~ Especifica el nombre de la empresa.
-Specifies the contact of the company. ~ Especifica el contacto de la empresa.
-Specifies the country code of the address. ~ Especifica el código de país de la dirección.
-Specifies the deleted at of the contact. ~ Especifica la eliminación del contacto.
-Specifies the details of the contact. ~ Especifica los detalles del contacto.
-Details ~ Detalles
-Domain ~ Dominio
-Specifies the domain name of the contact. ~ Especifica el nombre de dominio del contacto.
-Specifies the email of the contact. ~ Especifica el correo electrónico del contacto.
-Specifies the email contact of the company. ~ Especifica el contacto por correo electrónico de la empresa.
-Specifies the extra information of the contact. ~ Especifica la información adicional del contacto.
-Specifies the first name of the contact. ~ Especifica el primer nombre del contacto.
-Specifies the headcount of the company. ~ Especifica el personal de la empresa.
-Specifies the IBM CE identifier of the contact. ~ Especifica el identificador IBM CE del contacto.
-Specifies the IBM Maas account identifier of the contact. ~ Especifica el identificador de cuenta IBM MAAS del contacto.
-Specifies the internal reference of the company. ~ Especifica la referencia interna de la empresa.
-Internal Reference ~ Referencia interna
-Specifies the last name of the contact. ~ Especifica el apellido del contacto.
-Specifies the Maas360 reseller identifier of the contact. ~ Especifica el identificador de revendedor MAAS360 del contacto.
-Specifies the migration of the contact. ~ Especifica la migración del contacto.
-Specifies the MSCSP of the contact. ~ Especifica el MSCSP del contacto.
-Specifies the oracle online key of the contact. ~ Especifica la clave Oracle Online del contacto.
-Specifies the organization name of the contact. ~ Especifica el nombre de la organización del contacto.
-Specifies the organization unit of the contact. ~ Especifica la unidad de organización del contacto.
-Organization Unit ~ Unidad de organización
-Specifies the organization unit reference of the contact. ~ Especifica la referencia de la unidad de organización del contacto.
-Specifies the unique identifier of the company. ~ Especifica el identificador único de la empresa.
-Specifies the phone of the contact. ~ Especifica el teléfono del contacto.
-Specifies the programs of the contact. ~ Especifica los programas del contacto.
-Specifies the reception phone of the company. ~ Especifica el teléfono de recepción de la empresa.
-Specifies the reference of the company. ~ Especifica la referencia de la empresa.
-Specifies the unique identifier of the record. ~ Especifica el identificador único del registro.
-Specifies the state of the address. ~ Especifica el estado de la dirección.
-Specifies the sync partner contact reference identifier of the contact. ~ Especifica el identificador de referencia de contacto del socio de sincronización del contacto.
-Sync Partner Contact Ref Id ~ Sync Partner Contact Ref ID
-Specifies the tax number of the company. ~ Especifica el número de cif de la empresa.
-Specifies the tenant identifier of the contact. ~ Especifica el identificador del inquilino del contacto.
-Specifies the tenant identifier programs of the contact. ~ Especifica los programas de identificador del inquilino del contacto.
-Specifies the website URL of the company. ~ Especifica la URL del sitio web de la empresa.
-Specifies the postal code of the address. ~ Especifica el código postal de la dirección.
-Detalle Solución Cliente ~ Detalle Solución Cliente
-Customers ArrowSphere List ~ Lista de Clientes Arrowsphere
-Specifies the billing id of the company. ~ Especifica la identificación de facturación de la empresa.
-Specifies the domain of the contact. ~ Especifica el dominio del contacto.
-ExtraInformation ~ Información extra
-Specifies the ibm ce id of the contact. ~ Especifica la ID IBM CE del contacto.
-Specifies the ibm customer number of the contact. ~ Especifica el número de cliente IBM del contacto.
-Specifies the ibm maas account id of the contact. ~ Especifica la ID de cuenta IBM MAAS del contacto.
-Specifies the maas360 reseller id of the contact. ~ Especifica la ID de revendedor MAAS360 del contacto.
-Specifies the mscsp of the contact. ~ Especifica el MSCSP del contacto.
-Specifies the organization unit ref of the contact. ~ Especifica la unidad de organización REF del contacto.
-Specifies the ref of the company. ~ Especifica la referencia de la empresa.
-Specifies the sync partner contact ref id of the contact. ~ Especifica la referencia de contacto del socio de sincronización del contacto.
-Specifies the tenant id of the contact. ~ Especifica la identificación del Tenant del contacto.
-Tenant ID ~ Tenant ID
-Specifies the tenant id programs of the contact. ~ Especifica los programas de identificación del Tenant del contacto.
-Specifies the website url of the company. ~ Especifica la URL del sitio web de la empresa.
-Get Customer from ArrowSphere ~ Obtener cliente de ArrowSphere
-Get Customer ~ Obtener cliente
-Licenses ArrowSphere Card ~ Licencias de licencia Arrowsphere Card
-Specifies the activation date of the license ~ Especifica la fecha de activación de la licencia
-Activation Date ~ fecha de activacion
-Specifies the last update of active seats of the license ~ Especifica la última actualización de los asientos activos de la licencia
-Last Update of Active Seats ~ Última actualización de asientos activos
-Specifies the number of active license seats ~ Especifica el número de asientos de licencia activa
-Active Seats ~ Asientos activos
-Specifies the Arrow subcategories of the license ~ Especifica las subcategorías de Arrow de la licencia
-Arrow Subcategories ~ Subcategorías de Arrow
-Specifies the associated subscription program of the license ~ Especifica el programa de suscripción asociado de la licencia
-Specifies if the license auto renews ~ Especifica si la licencia se renueva automáticamente
-Auto Renew ~ auto renovación
-Specifies the category of the license ~ Especifica la categoría de la licencia
-Specifies the customer ID ~ Especifica la identificación del cliente
-Customer ID ~ Id. de cliente
-Specifies the expiry date of the license ~ Especifica la fecha de vencimiento de la licencia
-Expiry Date ~ Fecha de expiración
-Specifies the license name ~ Especifica el nombre de la licencia
-Specifies if the license is an addon ~ Especifica si la licencia es un complemento
-Specifies if the license is a trial ~ Especifica si la licencia es una prueba
-Specifies the license ID ~ Especifica la ID de licencia
-License ID ~ ID de licencia
-Specifies the license message ~ Especifica el mensaje de la licencia
-Specifies the order link of the license ~ Especifica el enlace de pedido de la licencia
-Order Link ~ Enlace de pedido
-Specifies the order reference of the license ~ Especifica la referencia de orden de la licencia
-Order Reference ~ Pedir Referencia
-Specifies the parent license ID ~ Especifica la ID de licencia de los padres
-Parent License ID ~ ID de licencia de padres
-Specifies the periodicity of the license ~ Especifica la periodicidad de la licencia
-Specifies the periodicity code of the license ~ Especifica el código de periodicidad de la licencia
-Specifies the maximum sale quantity of the license ~ Especifica la cantidad de venta máxima de la licencia
-Maximum Sale Quantity ~ Cantidad de venta máxima
-Specifies the minimum sale quantity of the license ~ Especifica la cantidad de venta mínima de la licencia
-Minimum Sale Quantity ~ Cantidad de venta mínima
-Specifies the currency of the license ~ Especifica la moneda de la licencia
-Currency ~ Divisa
-Specifies the total purchase price of the license ~ Especifica el precio total de compra de la licencia
-Total Purchase Price ~ Precio de compra total
-Specifies the total sale price of the license ~ Especifica el precio de venta total de la licencia
-Total Sale Price ~ Precio de venta total
-Specifies the unit purchase price of the license ~ Especifica el precio de compra de la unidad de la licencia
-Unit Purchase Price ~ Precio de compra de la unidad
-Specifies the unit sale price of the license ~ Especifica el precio de venta de la unidad de la licencia
-Unit Sale Price ~ Precio de venta de unidades
-Specifies the program of the license ~ Especifica el programa de la licencia
-Specifies the number of license seats ~ Especifica el número de asientos de licencia
-Specifies the service ID ~ Especifica la identificación del servicio
-Service ID ~ Id. de servicio
-Specifies the license SKU ~ Especifica la licencia Sku
-SKU ~ Sku
-Specifies the license state ~ Especifica el estado de la licencia
-Specifies the license status code ~ Especifica el código de estado de la licencia
-Specifies the term of the license ~ Especifica el término de la licencia
-Specifies the term code of the license ~ Especifica el término código de la licencia
-Specifies the vendor billing ID of the license ~ Especifica la identificación de facturación del proveedor de la licencia
-Vendor Billing ID ~ ID de facturación de proveedores
-Specifies the vendor code of the license ~ Especifica el código del proveedor de la licencia
-Vendor Code ~ Código de proveedor
-Specifies the vendor license ID of the license ~ Especifica la ID de licencia de la licencia del proveedor de la licencia
-Vendor License ID ~ ID de licencia de proveedor
-Licenses ArrowSphere List ~ Lista de licencias de Arrowsphere
-Get Licenses ArrowSphere ~ Obtener licencias Arrowsphere
-Get Licenses ~ Obtener licencias
-Prediction Viability Card ~ Ficha de viabilidad de predicción
-Access to Public Transport ~ Acceso al transporte público
-Area (m²) ~ Área (m²)
-Price (€) ~ Precio (€)
-Send data to API and get prediction ~ Enviar datos a API y obtener predicción
-Get Prediction ~ Obtener predicción
-Setup External API Card ~ Configurar ficha api externa
-Setup API ArrowSphere ~ Configuración de API Arrowsphere
-The ApiKey ArrowSphere ~ La APIKEY Arrowsphere
-ApiKey ~ Clave API
-The Endpoint ArrowSphere. ~ La Arrowsphere de punto final.
-Endpoint ~ Extremo
-Setup API Prediction ~ Configuración de la predicción de la API
-The Endpoint. ~ El punto final.
-Get Purchase Line ~ Obtener línea de compra
-Specifies the Buy-from Vendor No. ~ Especifica el número de proveedor de compra de compra-from
-Specifies the Description. ~ Especifica la descripción.
-Description ~ Descripción
-Specifies the Document No. ~ Especifica el Nº de documento.
-Document No. ~ Nº documento
-Specifies the Line No. ~ Especifica la línea No.
-Line No. ~ Nº línea
-Specifies the No. ~ Especifica el No.
-Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
-Outstanding Quantity ~ Cantidad pendiente
-Specifies the Qty. Invoiced. ~ Especifica la Cantidad.Facturado.
-Qty. Invoiced ~ Cant. facturada
-Specifies the Quantity. ~ Especifica la cantidad.
-Quantity ~ Cantidad
-Specifies the Type. ~ Especifica el tipo.
-Type ~ Tipo
-ReportName ~ ReportName
-Create a new customer in ArrowSphere and link it to the current customer. ~ Cree un nuevo cliente en Arrowsphere y vincule al cliente actual.
-New Arrow Customer ~ Nuevo cliente de Arrow
-Id cliente arrow ~ ID Cliente Arrow
-licencias ~ licencias
-Desmarcar Revisado ~ Desmarcar revisado
-Marca Revisado ~ Marca Revisado
-E-factura ~ Factura electrónica
-Editar Lineas Factura ~ Editar Lineas Factura
-E-factura davisa ~ E-factura davisa
-Microsoft ~ Microsoft
 Commission Report ~ Informe Comisiones
 The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
 Period: %1 ~ Periodo: %1
@@ -998,9 +653,7 @@ Total ~ Total
 Commission Amount ~ Importe Comisión
 Commission % ~ % Comisión
 Page ~ Pág.
-Description ~ Descripción
 Posting Date ~ Fecha registro
-Quantity ~ Cantidad
 Sales Amount ~ Importe ventas
 Salesperson - Commission ~ Vendedor - Comisión
 Total Commission Amount ~ Importe Total Comisión
@@ -1020,17 +673,15 @@ You cannot delete %1 %2 because there is one %3 associated to this item. ~ No se
 Base Unit of Measure Code ~ Código de unidad de medida base
 Cost Price ~ Precio coste
 Date Filter ~ Filtro de fecha
-Description ~ Descripción
 Family Code ~ Código de familia
 Inventory ~ Inventario
 Location Code ~ Código almacén
 Location Filter ~ Filtro Almacén
-No. ~ Nº
 Production Order Quantity ~ Cantidad orden de producción
 Subfamily Code ~ Código subfamilia
 Vendor Name ~ Nombre proveedor
 Vendor No. ~ Nº proveedor
-Check Line [%1] - Field [%2]  ~ Comprobar Línea [%1] - Campo [%2] 
+Check Line [%1] - Field [%2] ~ Comprobar Línea [%1] - Campo [%2] 
 Check State, Status need to be Pending ~ Comprobar Estado, el estado debe ser Pendiente
 Check Quantity in Header, Quantity need to be greater than 0 ~ Comprobar Cantidad en Cabecera, la cantidad debe ser mayor que 0
 No lines to register ~ No hay líneas para registrar
@@ -1051,12 +702,8 @@ Item Journal Line | WorkDate: ~ Diario de Producto | Fecha de trabajo:
 GENERIC ~ GENERICO
 Specifies the cost amount. ~ Especifica el importe del coste.
 Cost Amount ~ Importe coste
-Document No. ~ Nº documento
 Document Type ~ Tipo de documento
 Item does not exist. ~ El producto no existe.
-Line No. ~ Nº línea
-Posting Date ~ Fecha registro
-Quantity ~ Cantidad
 Section Code ~ Código de sección
 Unit Cost Price ~ Precio coste Unidad
 Specifies the section code. ~ Especifica el código de sección.
@@ -1079,7 +726,6 @@ Order Date ~ Fecha orden
 Status ~ Estado
 Unit of Measure Code ~ Código unidad medida
 Production Order Line ~ Línea orden producción
-Type ~ Tipo
 Production Setup ~ Configuración de producción
 Primary Key ~ Clave Primaria
 Product Serial No. ~ Nº serie producto
@@ -1093,14 +739,12 @@ Code of the item journal batch. ~ Código de Sección Diario producto.
 Description of the item journal batch. ~ Descripción de Sección Diario producto.
 Serial No. of the item journal batch. ~ Nº serie de Sección Diario producto.
 General ~ General
-Specifies the description. ~ Especifica la descripción.
 Specifies the document number. ~ Especifica el número de documento.
 Specifies the document type. ~ Especifica el tipo de documento.
 Specifies the item number. ~ Especifica el número del producto.
 Specifies the line number. ~ Especifica el número de línea.
 Specifies the location code. ~ Especifica el código de almacén.
 Specifies the posting date. ~ Especifica la fecha de registro.
-Specifies the quantity. ~ Especifica la cantidad.
 Specifies the unit cost price. ~ Especifica el precio de coste unitario.
 ActionName ~ Acción
 Specifies the cost amount of the item ledger entry. ~ Especifica el importe de coste de los movimientos de productos.
@@ -1131,13 +775,12 @@ Specifies the production order quantity for the item. ~ Especifica la cantidad d
 Replacement Filters ~ Filtros de sustitución
 Specifies the date filter for the item. ~ Especifica el filtro de fecha del producto.
 Specifies the location filter for the item. ~ Especifica el filtro de almacén del producto.
-Vendor ~ Proveedor
 Specifies the vendor name for the item. ~ Especifica el nombre del proveedor del producto.
 Specifies the vendor number for the item. ~ Especifica el número del proveedor del producto.
 Open the Item Ledger Entry page ~ Abrir la página de movimientos del producto
 Item List ~ Lista de productos
 Specifies the base unit of measure that is used for the item. ~ Especifica la unidad de medida base que se utiliza para el producto.
-  ~  
+ ~ 
 Production Order Header Document ~ Orden de Producción
 Production Order | WorkDate: ~ Orden de Producción | Fecha de trabajo:
 Specifies the production order number. ~ Especifica el número de orden de producción.
@@ -1149,13 +792,9 @@ Specifies the unit of measure for the quantity of the item to be produced. ~ Esp
 Subform Lin ~ Líneas
 Register the production order. ~ Registrar la orden de producción.
 Write Comment ~ Escribe un comentario
-Specifies the Description. ~ Especifica la descripción.
 Specifies the Line No. ~ Especifica el número de línea.
-Specifies the Location Code. ~ Especifica el código de almacén.
 Specifies the No. ~ Especifica el número.
 Specifies the Order No. ~ Especifica el número de orden.
-Specifies the Quantity. ~ Especifica la cantidad.
-Specifies the Type. ~ Especifica el tipo.
 Specifies the Unit of Measure Code. ~ Especifica el código de unidad de medida.
 The product serial no. ~ El Nº serie del producto.
 The production order serial no. ~ El Nº serie de la orden de producción.
@@ -1197,20 +836,16 @@ Specify the account to be used for the provision of the service charge. ~ Especi
 Provision Account ~ Cuenta de provisión
 Specify the account to use for the provision of the service charge. ~ Especifique la cuenta para usar para la provisión del cargo de servicio.
 Invoice Account ~ Cuenta de factura
-Shipment ~ Albarán
 Cust. Ledger Entry ~ Mov. Cliente
 Amount ~ Importe
 Applies-to ID ~ ID Liquidación
 Bill No. ~ Nº Efecto
 Customer No. ~ Nº cliente
-Description ~ Descripción
-Document No. ~ Nº documento
 Document Type ~ Tipo documento
 Due Date ~ Fecha vencimiento
 Entry No. ~ Nº mov.
 Is Positive ~ Positivo
 Open ~ Pendiente
-Posting Date ~ Fecha registro
 Remaining Amount ~ Importe pendiente
 Salesperson Code ~ Cód. vendedor
 Customer ~ Cliente
@@ -1221,10 +856,7 @@ Balance (DL) ~ Saldo (DL)
 Combine Shipments ~ Fact. automática
 Country/Region Code ~ Cód. país/región
 County ~ Provincia
-Email ~ Correo electrónico
 Max Credit (LCY) ~ Crédito máximo (DL)
-Name ~ Nombre
-No. ~ Nº
 Payment Method Code ~ Cód. forma pago
 Payment Terms Code ~ Cód. términos pago
 Phone No. ~ Nº teléfono
@@ -1235,15 +867,12 @@ VAT Registration No. ~ CIF/NIF
 Web Page ~ Página web
 Gen. Jnl. Batch ~ Secciones Diario General
 You cannot delete %1 because there is at least one %2 associated to this section . ~ No puede eliminar %1 porque hay al menos un %2 asociado a esta sección.
-Code ~ Código
 Series Code ~ No. Serie
 Gen. Jnl. Line ~ Diario General
 Applies-to Bill No. ~ Liq. por No. Efecto
 Applies-to Doc. No. ~ Liq. por No. documento
 Applies-to Doc. Type ~ Liq. por tipo documento
 Journal Batch Name ~ Nombre Sección
-Line No. ~ Nº línea
-Type ~ Tipo
 Sales Cr. Memo Header ~ Cab. Abono Venta
 No. Series ~ Nº serie
 Order Date ~ Fecha pedido
@@ -1266,7 +895,6 @@ Shipment No. Series ~ Nº serie alb. venta
 Your Reference ~ Su/Ntra. ref.
 Sales Cr. Memo Line ~ Subform Lín. Hist. Lín. Abono Venta
 Location Code ~ Cód. almacén
-Quantity ~ Cantidad
 Unit Price ~ Precio venta
 Sales Header ~ Cab. Venta
 The inventory does not have #1 requested units. There are only %2 units in the %3 location. ~ El inventario no tiene unidades solicitadas #1.Solo hay %2 unidades en la ubicación %3.
@@ -1280,7 +908,6 @@ Sales Line ~ Lín. Venta
 This Item is not available in this Location. ~ Este producto no está disponible en esta ubicación.
 Invoiced Quantity ~ Cantidad facturada
 Quantity to Invoice cannot be greater than Quantity to Ship + Shipped Quantity - Invoiced Quantity. ~ La cantidad a facturar no puede ser mayor que la cantidad para enviar + cantidad enviada - cantidad facturada.
-Outstanding Quantity ~ Cantidad pendiente
 Qty. Shipped Not Invoiced ~ Cantidad enviada no facturada
 Quantity must be greater than Quantity to Ship + Shipped Quantity. ~ La cantidad debe ser mayor que la cantidad para enviar + cantidad enviada.
 Quantity to Invoice ~ Cdad. a facturar
@@ -1330,15 +957,10 @@ Specifies the amount. ~ Especifica la cantidad.
 Specifies the ID of entries that will be applied to when you choose the Apply Entries action. ~ Especifica los identificadores de los movimientos que se liquidarán cuando elija la acción Liquidar movs.
 Specifies the bill number. ~ Especifica el número de factura.
 Specifies the customer number. ~ Especifica el número de cliente.
-Specifies the description. ~ Especifica la descripción.
-Specifies the document number. ~ Especifica el número de documento.
-Specifies the document type. ~ Especifica el tipo de documento.
 Specifies the due date. ~ Especifica la fecha de vencimiento.
 Specifies the entry number. ~ Especifica el número de entrada.
 Specifies whether the entry is positive or negative. ~ Especifica si la entrada es positiva o negativa.
 Specifies whether the entry is open or closed. ~ Especifica si la entrada está abierta o cerrada.
-Pending ~ Pendiente
-Specifies the posting date. ~ Especifica la fecha de registro.
 Specifies the remaining amount. ~ Especifica la cantidad restante.
 Specifies the salesperson code. ~ Especifica el código del vendedor.
 Action to post liquidation ~ Acción para registrar liquidación
@@ -1356,11 +978,9 @@ Specifies the city ~ Especifica la ciudad
 Specifies the country code ~ Especifica el código de país
 Specifies the county ~ Especifica el condado
 Specifies the post code ~ Especifica el código registraral
-Contact ~ Contacto
 Specifies the email ~ Especifica el correo electrónico
 Specifies the phone number ~ Especifica el número de teléfono
 Specifies the web page ~ Especifica la página web
-General ~ GENERAL
 Specifies the balance ~ Especifica el equilibrio
 Balance (LCY) ~ Saldo (DL)
 Specifies the maximum credit amount ~ Especifica el importe máximo del crédito
@@ -1383,7 +1003,6 @@ Specifies the number of the customer. ~ Especifica el número del cliente.
 Specifies the code of the Journal section ~ Especifica el código de la sección Diario.
 Specifies the description of the journal section. ~ Especifica la descripción de la sección del diario.
 Specifies the series code of the journal section. ~ Especifica el código de serie de la sección del diario.
-GENERIC ~ GENERICO
 Number of Lines ~ Número de líneas
 Specifies the number of lines in the current journal batch. ~ Especifica el número de líneas de la sección diario actual.
 Total Amount ~ Importe total
@@ -1393,32 +1012,21 @@ Specifies the applies-to document number. ~ Especifica el número de documento a
 Specifies the applies-to document type. ~ Especifica el tipo de documento aplicado.
 Specifies the journal batch name. ~ Especifica el nombre por lotes del diario.
 Specifies the line number ~ Especifica el número de línea
-Specifies the type. ~ Especifica el tipo.
 Specifies the current batch name. ~ Especifica el nombre de lote actual.
 Current Batch Name ~ Nombre sección
 Post the journal lines ~ Registrar las líneas de diario
 Post ~ Registrar
 There are no lines in the journal to post ~ No hay líneas en el diario para registrar
 Get Shipment Line ~ Obtener línea de albarán
-Specifies the Description. ~ Especifica la descripción.
-Specifies the Document No. ~ Especifica el Nº de documento.
 Specifies the Invoiced Quantity. ~ Especifica la cantidad facturada.
-Specifies the Line No. ~ Especifica la línea No.
 Specifies the Location Code. ~ Especifica el código de ubicación.
-Specifies the No. ~ Especifica el No.
-Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
-Specifies the Quantity. ~ Especifica la cantidad.
 Specifies the Sell-to Customer No. ~ Especifica el número de ventas al cliente
-Specifies the Type. ~ Especifica el tipo.
 Specifies the Unit Price. ~ Especifica el precio unitario.
 Sale Price ~ Precio de venta
 Sales Cr. Memo Header Doc. ~ Hist. Abono de Venta
-Specifies the Due Date. ~ Especifica la fecha de vencimiento.
 Specifies the Order Date. ~ Especifica la fecha de pedido.
 Specifies the Payment Method Code. ~ Especifica el código del método de pago.
 Specifies the Payment Terms Code. ~ Especifica el código de Términos de pago.
-Specifies the Posting Date. ~ Especifica la fecha de registro.
-Specifies the Salesperson Code. ~ Especifica el código del vendedor.
 Specifies the Sell-to Address. ~ Especifica la dirección de venta.
 Specifies the Sell-to City. ~ Especifica la ciudad de venta a.
 Specifies the Sell-to Country/Region Code. ~ Especifica el código de venta de país/región.
@@ -1441,9 +1049,7 @@ Sales Cr. Memo Header List ~ Lista de Hist. Abonos de Venta
 Information about the sales shipment header. ~ Información sobre el encabezado de envío de ventas.
 Information about the customer who is invoiced for the order. ~ Información sobre el cliente que se factura por el pedido.
 Information about the customer who will receive the order. ~ Información sobre el cliente que recibirá el pedido.
-Specifies the Amount. ~ Especifica la cantidad.
 Sales Credit Doc ~ Abono Venta
-Specifies the Document Type. ~ Especifica el tipo de documento.
 Lines ~ Líneas
 Sales Credit Memo Post ~ Registrar Abono de Venta
 Sales Credit List ~ Lista de Abonos de Venta
@@ -1480,7 +1086,7 @@ Specifies the number series to be used for shipment numbers. ~ Especifica la ser
 Sales Shipment Header Doc. ~ Hist. Albarán de Venta
 Sales Shipment Header List ~ Lista de Hist. Albaranes de Venta
 About Shipping Address Card ~ Acerca de la ficha de dirección de envío
-With the ** Card** you manage information about a customer's shipping address.  ~ Con la ficha ** ** administra información sobre la dirección de envío de un cliente.
+With the ** Card** you manage information about a customer's shipping address. ~ Con la ficha ** ** administra información sobre la dirección de envío de un cliente.
 Shipping Address Card ~ Ficha Dirección Envío
 Specifies the code ~ Especifica el código
 Specifies the number ~ Especifica el número
@@ -1490,16 +1096,11 @@ Specifies the code of the shipping address ~ Especifica el código de la direcci
 Specifies the customer number ~ Especifica el número de cliente
 Specifies the name of the shipping address ~ Especifica el nombre de la dirección de envío
 Account ~ Cuenta
-Vendor ~ Proveedor
-Item ~ Producto
 Payment ~ Pago
 Refund ~ Reembolso
 Registration ~ Matrícula
 You cannot delete %1 %2 because there is at least one %3 associated to this registration. ~ No se puede eliminar %1 %2 porque hay al menos un %3 asociado a esta matricula.
-Amount ~ Importe
 Invoce Generated ~ Factura Generada
-No. ~ Nº
-No. Series ~ Nº Serie
 Student Address ~ Dirección del Alumno
 Student Name ~ Nombre del Alumno
 Student No. ~ Nº Alumno
@@ -1507,15 +1108,12 @@ Student Surname ~ Apellidos del Alumno
 University No. ~ Nº Universidad
 Registration Detail ~ Detalle de Matricula
 Credits ~ Créditos
-Description ~ Descripción
-Line No. ~ Nº Línea
 Registration No. ~ Nº Matrícula
 Subject No. ~ Nº asignatura
 Registration Configuration ~ Configuración de Matricula
 Credit Price ~ Precio Crédito
 Gen. Business Posting Group ~ Grupo Contable General Negocio
 Invoce Description ~ Descripción Factura
-Primary Key ~ Clave Primaria
 Registration Series Nos. ~ Nºs Serie Matricula
 Sales Account Nos. ~ Nºs Cuenta Ventas
 Student Posting Group ~ Grupo Contable Alumno
@@ -1525,12 +1123,8 @@ Student ~ Alumno
 must not contain letters ~ no debe contener letras
 You cannot delete %1 %2 because there is at least one %3 associated to this student. ~ No se puede eliminar %1 %2 porque hay al menos un %3 asociado a este alumno.
 You cannot delete %1 %2 because there is one %3 associated to this student. ~ No se puede eliminar %1 %2 porque hay un %3 asociado a este alumno.
-Address ~ Dirección
-Comment ~ Comentario
-Customer No. ~ Nº Cliente
 Date of Birth ~ Fecha de Nacimiento
 Image ~ Imagen
-Name ~ Nombre
 Phone 2 No. ~ Teléfono 2
 Phone No. ~ Teléfono
 Surnames ~ Apellidos
@@ -1545,7 +1139,6 @@ You cannot delete %1 %2 because there is at least one %3 associated to this subj
 University ~ Universidad
 Address 2 ~ Dirección 2
 Picture ~ Imagen
-Web Page ~ Página Web
 %1 image files were exported ~ %1 archivo/s de imagen fue o fueron exportado/s
 Export Image ~ Exportar Imagen
 The existing picture will be replaced. Continue? ~ La imagen existente será reemplazada. ¿Continuar?
@@ -1555,7 +1148,6 @@ Do you want to open the invoice? ~ ¿Desea abrir la factura?
 Invoice created successfully ~ Factura creada correctamente
 The student does not have an associated customer ~ El alumno no tiene un cliente asociado
 The invoice has already been generated ~ La factura ya ha sido generada
-General ~ General
 Specifies the Amount. ~ Especifica el importe
 Specifies if the invoice has been generated. ~ Especifica si la factura ha sido generada.
 Specifies the registration's No. ~ Especifica el Nº de matrícula.
@@ -1577,15 +1169,14 @@ Specifies the student's Invoce Generated. ~ Especifica la factura generada del a
 Specifies a unique number that identifies the registration. ~ Especifica un número único que identifica la matrícula.
 Export a file with Registration List / Detail. ~ Exportar un archivo con la Lista / Detalle de Matrículas.
 Export Registration ~ Exportar Matrícula
-Registration List  ~ Lista de Matrículas
-Registration Details  ~ Detalles de Matrículas
-Registration List and Details  ~ Lista y Detalles de Matrículas
- CSV Export ~ Exportar CSV
+Registration Details ~ Detalles de Matrículas
+Registration List and Details ~ Lista y Detalles de Matrículas
+CSV Export ~ Exportar CSV
 XML Export ~ Exportar XML
 Import a file with Registration List / Detail. ~ Importa un archivo con la lista de matrículas / detalle.
 Import Registration ~ Importar Matrícula
- CSV Import ~ Importar CSV
- XML Import ~ Importar XML
+CSV Import ~ Importar CSV
+XML Import ~ Importar XML
 This option is not available ~ Esta opción no está disponible
 Registration Setup ~ Configuración de matrícula
 The credit price. ~ El precio del crédito
@@ -1611,11 +1202,9 @@ Create New University ~ Crear nueva universidad
 Card With Out List ~ Ficha sin lista
 Open the Subject Card page, where you can view and manage subjects. ~ Abrir la página de ficha de asignatura, donde puede ver y administrar asignaturas.
 Subject Card ~ Ficha de asignatura
-Lists ~ Listas
 Open the Comment Line List page, where you can view and manage comment lines. ~ Abrir la página de lista de líneas de comentario, donde puede ver y administrar líneas de comentario.
 Comment Line List ~ Lista de líneas de comentario
 Open the Customer List page, where you can view and manage customers. ~ Abrir la página de lista de clientes, donde puede ver y administrar clientes.
-Customer List ~ Lista de clientes
 Open the Posted Sales Invoices page, where you can view and manage posted sales invoices. ~ Abrir la página de facturas de venta contabilizadas, donde puede ver y administrar facturas de venta contabilizadas.
 Posted Sales Invoices ~ Historico de Facturas de venta
 Open the Registration List page, where you can view and manage registrations. ~ Abrir la página de lista de matrículas, donde puede ver y administrar matrículas.
@@ -1625,21 +1214,17 @@ Open the Student List page, where you can view and manage students. ~ Abrir la p
 Student List ~ Lista de Alumnos
 Open the Student Movement List page, where you can view and manage student movements. ~ Abrir la página de lista de movimientos de alumnos, donde puede ver y administrar movimientos de alumnos.
 Student Movement List ~ Lista de Movimientos de Alumnos
-Setups ~ Configuraciones
 Open the Registration Setup page, where you can view and manage registration setup. ~ Abrir la página de configuración de matrícula, donde puede ver y administrar la configuración de matrícula.
 About student details ~ Acerca de los detalles del alumno
 With the **Student Card** you manage information about a student. ~ Con la **Ficha de alumno** administra información sobre un alumno.
 Student Card ~ Ficha de alumno
 Do you want to open the customer card? ~ ¿Desea abrir la ficha del cliente?
 Customer already created ~ Cliente ya creado
-Specifies the student's address. ~ Especifica la dirección del alumno.
 Specifies the student's comment. ~ Especifica el comentario del alumno.
 Specifies the student's group. ~ Especifica el grupo del alumno.
-Specifies the student's name. ~ Especifica el nombre del alumno.
 Specifies a unique number that identifies the student. The number can be generated automatically from a number series, or you can number each of them manually. ~ Especifica un número único que identifica al alumno. El número puede generarse automáticamente a partir de una serie de números, o puede numerarlos manualmente.
 Specifies the student's phone 2 number. ~ Especifica el número de teléfono 2 del alumno.
 Specifies the student's phone number. ~ Especifica el número de teléfono del alumno.
-Specifies the student's surname. ~ Especifica el apellido del alumno.
 &Student ~ &Alumno
 View or add comments for the record. ~ Ver o agregar comentarios para el matrícula.
 Co&mments ~ Co&mentarios
@@ -1674,7 +1259,6 @@ Specifies a unique number that identifies the university. ~ Especifica un númer
 Specifies the web address of the university. ~ Especifica la dirección web de la universidad.
 Registration Report ~ Informe de matrícula
 Page ~ Página
-Total Amount ~ Importe total
 Registration Import Export to XML ~ Importar y exportar matrícula a XML
 Imported successfully ~ Importado correctamente
 Import & Export Registration Details ~ Importar y exportar detalles de matrícula
@@ -1685,206 +1269,46 @@ Import & Export Registration List ~ Importar y exportar lista de matrícula
 Cant delete customer because it has movements ~ No se puede eliminar el cliente porque tiene movimientos
 Sample Profile ~ Perfil de ejemplo
 Id ~ Id
-Image ~ Imagen
-General ~ GENERAL
 Specify the Company Name ~ Especificar el nombre de la empresa
 Specify the Email ~ Especificar el correo electrónico
-Email ~ Correo electrónico
 Specify the Id ~ Especificar la identificación
 Specify the Name ~ Especificar el nombre
-Name ~ Nombre
 Specify the Phone ~ Especificar el teléfono
-Phone ~ Teléfono
 Specify the Category ~ Especificar la categoría
-Category ~ Clase
 Specify the Description ~ Especificar la descripción
-Description ~ Descripción
 Specify the Image URL ~ Especificar la URL de la imagen
 Image URL ~ URL de la imagen
 Specify the Price ~ Especificar el precio
-Price ~ Precio
 Specify the Image ~ Especificar la imagen
-Picture ~ Imagen
 Mesa Picture ~ Imagen de mesa
 %1 image files were exported ~ Se exportaron %1 de archivos de imagen
 Export Image ~ Imagen de exportación
 Specifies the Id of the item. ~ Especifica la id del producto.
 Specifies the picture of the student, for example, a logo. ~ Especifica la imagen del estudiante, por ejemplo, un logotipo.
 Export the picture to a file. ~ Exporta la imagen a un archivo.
-Export ~ Exportar
 Import a picture file from URL ~ Importar un archivo de imagen de URL
 Import From URL ~ Importar de URL
 Mesa Picture URL Dialog ~ Diálogo de URL de imagen de mesa
 Specify the item description ~ Especificar la descripción del elemento
 Item Description ~ Descripción producto
 Specify the item number ~ Especificar el número de elemento
-Item No. ~ Nº producto
 Specify the picture URL ~ Especifique la URL de la imagen
 Picture URL ~ URL de imagen
-Convert invoice %1 to bill ~ Convertir factura %1 en efectos
-Show Ledger Entry Pending ~ Mostrar Movs. pendientes
-Action to show pending ledger entry ~ Acción para mostrar movimientos pendientes
-Post ~ Registrar
-The Bill No. cant be empty. Line No. %1 ~ El Nº efecto no puede estar vacio. Nº linea %1
-Do you want to post the journal? ~ ¿Quieres registrar el diario?
-Ship,Invoice,Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
 Ship, Invoice, Ship and Invoice ~ Envíar,Facturar,Envíar y facturar
 Get &amp;Shipment Lines ~ Traer líneas alb. venta
-Get Shipment Line ~ Obtener línea de albarán
-There are no lines in the journal to post ~ No hay líneas en el diario para registrar
-The document was not found in the Customer Ledger Entry ~ El documento de factura no se encontró en los movimientos de cliente
-GENERIC ~ GENERICO
 Do yo want to register the journal? ~ ¿Quieres registrar el diario?
 The Applies-to Bill No. cant be empty ~ El número de Efecto a liquidar no puede estar vacío
 The Bill No. cant be empty ~ El número de Efecto no puede estar vacío
 The Bill No. ~ El número de Efecto
-Bill No. ~ Nº Efecto
-Sales Setup ~ Configuración Ventas
-Customer Card ~ Ficha Cliente
-Customer List ~ Lista de Clientes
-Shipping Address Card ~ Ficha Dirección Envío
-Shipping Address List ~ Lista de Direcciones de envío
-Cust. Ledger Entry ~ Mov. Cliente
-Sales Header Doc ~ Pedido Venta
-Sales Header List ~ Lista de Pedidos de Venta
-Sales Invoice Doc ~ Factura Venta
-Sales Invoice List ~ Lista de Facturas de Venta
-Sales Credit Doc ~ Abono Venta
-Sales Credit List ~ Lista de Abonos de Venta
-Sales Line Order ~ Subform lín. Pedido Venta
 Sales Line Invoce ~ Subform lín. Factura Venta
-Sales Line Credit ~ Subform lín. Abono Venta
-Gen. Jnl. Batch ~ Secciones Diario General
-Gen. Jnl. Line ~ Diario General
-Sales Shipment Header Doc. ~ Hist. Albarán de Venta
-Sales Shipment Header List ~ Lista de Hist. Albaranes de Venta
-Sales Shipment Line ~ Subform Lín. Hist. Lín. Albarán Venta
-Sales Invoice Header Doc. ~ Hist. Factura de Venta
-Sales Invoice Header List ~ Lista de Hist. Facturas de Venta
-Sales Invoice Line ~ Subform Lín. Hist. Lín. Factura Venta
-Sales Cr. Memo Header Doc. ~ Hist. Abono de Venta
-Sales Cr. Memo Header List ~ Lista de Hist. Abonos de Venta
-Sales Cr. Memo Line ~ Subform Lín. Hist. Lín. Abono Venta
-Shipping Address ~ Dirección de Envío
-Sales Header ~ Cab. Venta
-Sales Line ~ Lín. Venta
 Gen. Jnl. Line ~ Lín. Diario General
-Sales Shipment Header ~ Cab. Albarán Venta
 Sales Shipment Line ~ Lín. Albarán
-Sales Invoice Header ~ Cab. Factura Venta
 Sales Invoice Line ~ Lín. Factura Venta
-Sales Cr. Memo Header ~ Cab. Abono Venta
 Sales Cr. Memo Line ~ Lín. Abono Venta
-Key ~ Clave
-Customer Series Code ~ No. Serie Cliente
-Order Series Code ~ No. Serie Pedido
-Invoice Series Code ~ No. Serie Factura
-Credit Memo Series Code ~ No. Serie Abono
-Shipment Series Code ~ No. Serie Albarán
-Posted Invoice Series Code ~ No. Serie Fact Reg.
-Posted Credit Memo Series Code ~ No. Serie Abono Reg.
-Max Credit (LCY) ~ Crédito máximo (DL)
-Payment Terms Code ~ Cód. términos pago
-Salesperson Code ~ Cód. vendedor
-Shipment Method Code ~ Cód. condiciones envío
-Shipping Agent Code ~ Cód. transportista
-Country/Region Code ~ Cód. país/región
-Payment Method Code ~ Cód. forma pago
-Balance (DL) ~ Saldo (DL)
-VAT Registration No. ~ CIF/NIF
-County ~ Provincia
-Entry No. ~ Nº mov.
-Customer No. ~ Nº cliente
-Posting Date ~ Fecha registro
-Document Type ~ Tipo documento
-Document No. ~ Nº documento
-Description ~ Descripción
-Remaining Amount ~ Importe pendiente
-Is Positive ~ Positivo
-Bill No. ~ Nº efecto
-Applies-to ID ~ ID Liquidación
-Open ~ Pendiente
-Sell-to Customer No. ~ Venta a-Nº cliente
-Your Reference ~ Su/Ntra. ref.
-Ship-to Customer Code ~ Cód. dirección envío cliente
-Ship-to Name ~ Envío a-Nombre
-Ship-to Address ~ Envío a-Dirección
-Ship-to City ~ Envío a-Población
-Ship-to Post Code ~ Envío a-C.P.
-Ship-to County ~ Envío a-Provincia
-Order Date ~ Fecha pedido
-Shipment Date ~ Fecha envío
-Invoice ~ Factura
-Next Shipment No. ~ Nº sig. albarán venta
-Next Invoice No. ~ Nº sig. factura
-Sell-to Name ~ Venta a-Nombre
-Sell-to Address ~ Venta a-Dirección
-Sell-to City ~ Venta a-Población
-Sell-to Post Code ~ Venta a-C.P.
-Sell-to County ~ Venta a-Provincia
-Sell-to Country/Region Code ~ Venta a-Cód. país/región
-Posting No. Series ~ Nº serie registro
-Shipment No. Series ~ Nº serie alb. venta
-Line No. ~ Nº línea
-No. ~ Nº
-Location Code ~ Cód. almacén
-Quantity ~ Cantidad
-Outstanding Quantity ~ Cantidad pendiente
-Quantity to Invoice ~ Cdad. a facturar
-Quantity to Ship ~ Cantidad a enviar
-Unit Price ~ Precio venta
-Qty. Shipped Not Invoiced ~ Cantidad enviada no facturada
-Shipped Quantity ~ Cantidad enviada
-Invoiced Quantity ~ Cantidad facturada
-Amount ~ Importe
-Shipment No. ~ Nº albarán
-Shipment Line No. ~ Nº línea albarán
-Code ~ Código
-Series Code ~ No. Serie
-Journal Batch Name ~ Nombre Sección
 Document No. ~ No. Documento
 Bill No. ~ No. Efecto
-Applies-to Doc. Type ~ Liq. por tipo documento
-Applies-to Doc. No. ~ Liq. por No. documento
-Applies-to Bill No. ~ Liq. por No. Efecto
 Shipment No. Series ~ Nº serie albarán
-Type ~ Tipo
-Due Date ~ Fecha vencimiento
-No. Series ~ Nº serie
 The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Linea %1
-The Applies-to Bill No. cant be empty. Line No. %1 ~ La Liq. por No. Efecto. no puedo esta vacia. Nº Linea %1
 Specifies the bill number ~ Especifica el número de efecto.
-Specifies the Applies-to Bill No. ~ Especifica la Liq. por No. Efecto.
-Specifies the Ship-to Post Code. ~ Especifica el código postal de destino.
-Specifies the Ship-to Customer Code. ~ Especifica el código de envío al cliente.
-Specifies the Ship-to County. ~ Especifica la provincia de envío.
-Specifies the Ship-to Name. ~ Especifica el nombre del envío.
-Specifies the Ship-to City. ~ Especifica la ciudad del envío.
-Specifies the Sell-to Post Code. ~ Especifica el código de venta.
-Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
-Specifies the Document No. ~ Especifica el Nº de documento.
-Current Batch Name ~ Nombre sección
-Specifies the series code of the journal section. ~ Especifica el código de serie de la sección del diario.
-Specifies the code of the Journal section ~ Especifica el código de la sección Diario.
-Specifies the description of the journal section. ~ Especifica la descripción de la sección del diario.
 Post Sales Order ~ Registrar Pedido de Venta
-Sales Order Post ~ Registrar Pedido de Venta
-Sales Credit Memo Post ~ Registrar Abono de Venta
-Sales Invoice Post ~ Registrar Factura de Venta
-Specifies the commission amount for the salesperson. ~ Especifica la cantidad de la comisión para el vendedor.
-Show Value Entry ~ Mostrar movs. Valor
-Open the Value Entry page ~ Abrir la página de movimientos de valor
-Specifies the commission percentage for the salesperson. ~ Especifica el porcentaje de comisión para el vendedor.
-Total Sales Amount ~ Importe total ventas
-Total Commission Amount ~ Importe Total Comisión
-The new commision report has been created successfully. ~ El Informe de comisiones se ha creado con correctamente.
-Commission Report ~ Informe Comisiones
-Commission Report V2 ~ Informe Comisiones V2
-Commission Amount ~ Importe Comisión
-Provision of shipment %1 from the vendor %2 ~ Provisión de albarán %1 del proveedor %2
-Provision Account ~ Cuenta de provisión
-Shipment ~ Albarán
-Invoice vendor ~ Proveedor de factura
-Invoice - Shipment %1 ~ Factura - Albarán %1
-The provisions account was not found in the supplier group ~ La cuenta de provisiones no se encontró en el grupo de proveedores
 Allow fields editing Projects in progress ~ Permitir edición de campos en proyectos en ejecución
