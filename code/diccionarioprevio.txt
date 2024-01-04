@@ -133,9 +133,9 @@ Term Year ~ Término (Anual)
 Unit Type ~ Tipo de unidad
 Unit Type Year ~ Tipo de unidad (Anual)
 Vendor ~ Proveedor
-ApiKeyAS ~ Apikeyas
-EndpointAS ~ Punto final
-EndpointPRE ~ Punto final
+ApiKeyAS ~ Apikey ArrowS
+EndpointAS ~ Endpoint ArrowS
+EndpointPRE ~ Endpoint Predicción
 Cod. país/región ~ Cod. país/región
 Codigo Postal ~ Codigo registraral
 Codigo Centro ~ Codigo Centro
@@ -415,23 +415,23 @@ Specifies the vendor of the record. ~ Especifica el proveedor del registro.
 Products ArrowSphere List ~ Productos Lista de Arrowsphere
 Get Products from ArrowSphere ~ Obtener productos de Arrowsphere
 Get Products ~ Obtener productos
-Setup External API Card ~ Configurar ficha api externa
-Setup API ArrowSphere ~ Configuración de API ArrowsphereSpecifies the No.
+Setup External API Card ~ Ficha Configuración api externa
+Setup API ArrowSphere ~ Configuración de API Arrowsphere
 The ApiKey ArrowSphere ~ La APIKEY Arrowsphere
 ApiKey ~ Clave API
-The Endpoint ArrowSphere. ~ La Arrowsphere de punto final.
-Endpoint ~ Extremo
-Setup API Prediction ~ Configuración de la predicción de la API
-The Endpoint. ~ El punto final.
+The Endpoint ArrowSphere. ~ Endpoint ArrowSphere.
+Endpoint ~ Endpoint
+Setup API Prediction ~ Configuración API de predicción 
+The Endpoint. ~ Endpoint.
 Get Purchase Line ~ Obtener línea de compra
-Specifies the Buy-from Vendor No. ~ Especifica el número de proveedor de compra de compra-from
+Specifies the Buy-from Vendor No. ~ Especifica el número de proveedor de compra
 Specifies the Description. ~ Especifica la descripción.
 Specifies the Document No. ~ Especifica el Nº de documento.
 Document No. ~ Nº documento
 Line No. ~ Nº línea
 Specifies the Outstanding Quantity ~ Especifica la cantidad pendiente
 Outstanding Quantity ~ Cantidad pendiente
-Specifies the Qty. Invoiced. ~ Especifica la Cantidad.Facturado.
+Specifies the Qty. Invoiced. ~ Especifica la Cantidad Facturada.
 Qty. Invoiced ~ Cant. facturada
 Specifies the Quantity. ~ Especifica la cantidad.
 Specifies the Type. ~ Especifica el tipo.
@@ -443,7 +443,7 @@ Open Customer ArrowSphere ~ Abrir Clientes ArrowShpere
 Client does not exist in ArrowSphere ~ El cliente no existe en Arrowsphere
 Id cliente arrow ~ ID Cliente Arrow
 Client Solution Detail ArrowSphere ~ Detalles de la solución del cliente Arrowsphere
-licencias ~ licencias
+licencias ~ Licencias
 Desmarcar Revisado ~ Desmarcar revisado
 Marca Revisado ~ Marca Revisado
 E-factura ~ Factura electrónica
@@ -454,7 +454,7 @@ Bloque de horas detallado ~ Bloque de Horas Detallado
 Bloque de horas por requerimiento ~ Bloque de Horas por requerimiento
 Enviar Mail Bloque de Horas ~ Enviar correo bloque de horas
 Informe Boque de Horas ~ Informe Boque de Horas
-Requerimiento Agrupación ~ Requirimento Agrupacia
+Requerimiento Agrupación ~ Requerimiento Agrupación
 Revisión Casos ~ Revisión Casos
 Imprimir Oferta davisa ~ Imprimir oferta davisa
 Bloque de horas ~ Bloque de Horas
@@ -466,11 +466,12 @@ dvs Imp Renovación Licen ~ DVS Imp Renovación licencia
 Detalle soluc. cliente ~ Detalle soluc.cliente
 Davisa importe renovación licencias ~ Davisa importe renovación licencias
 Fecha proxima renovación ~ Fecha proxima renovación
-Fecha prox fact Licen ~ Fecha prox de hechos licenciantes
-Filtro fecha solciones ~ Soluciones de Fecha Filtro
+Fecha prox fact Licen ~ Fecha prox fact Licen
+Filtro fecha solciones ~ Filtro fecha soluciones
+Filtro fecha soluciones ~ Filtro fecha soluciones
 Folio ~ fol.
 Hoja ~ Hoja
-Id customer arrow ~ Id Flecha de clientes
+Id customer arrow ~ Id Clientes Arrow
 Imp Renovación Licencias ~ IMP Renovación Licencias
 Libro ~ Libro
 Micro  Impor Rennvación Licencias ~ Micro Impor Rennvación Licencias
@@ -1284,3 +1285,6 @@ The Bill No. cant be empty. Line No. %1 ~ El efecto no puedo esta vacio. Nº Lin
 Specifies the bill number ~ Especifica el número de efecto.
 Post Sales Order ~ Registrar Pedido de Venta
 Allow fields editing Projects in progress ~ Permitir edición de campos en proyectos en ejecución
+The Endpoint ArrowSphere. ~ Endpoint ArrowSphere.
+Updating Customers from ArrowSphere ~ Actualizando los clientes de Arrowsphere
+Posting New Customer to ArrowSphere ~ Registrando el nuevo cliente en Arrowsphere
